@@ -17,3 +17,5 @@ To prepare the timetable and manage its manual system, allocate lectures and sen
 7. Click on "Guna UI Activation.exe"
 8. You will see a window "Your license is activated"
 9. Guna framework is activated and now you can open and run the application
+
+Check out the guna installation tutorial [Download and install Guna UI .Net Framework latest [2020]](https://www.youtube.com/watch?v=Rx40_T_yPZ0&t=130s)
