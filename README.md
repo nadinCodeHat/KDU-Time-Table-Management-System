@@ -3,4 +3,4 @@ To prepare the timetable and manage its manual system, allocate lectures and sen
 
 ## Required Tools
 - Visual Studio
-
+- Guna Framework
