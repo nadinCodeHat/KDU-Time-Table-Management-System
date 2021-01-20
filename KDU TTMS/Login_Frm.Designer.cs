@@ -144,6 +144,7 @@ namespace KDU_TTMS
             this.emailTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.emailTxt.HoverState.Parent = this.emailTxt;
+            this.email_errorProvider.SetIconPadding(this.emailTxt, 5);
             this.emailTxt.Location = new System.Drawing.Point(548, 276);
             this.emailTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.emailTxt.Name = "emailTxt";
@@ -349,6 +350,7 @@ namespace KDU_TTMS
             // 
             // email_errorProvider
             // 
+            this.email_errorProvider.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
             this.email_errorProvider.ContainerControl = this;
             // 
             // password_errorProvider
