@@ -57,6 +57,7 @@ namespace KDU_TTMS
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.email_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.password_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.email_errorProvider)).BeginInit();
@@ -100,6 +101,7 @@ namespace KDU_TTMS
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.label4.Location = new System.Drawing.Point(706, 398);
             this.label4.Name = "label4";
@@ -296,7 +298,7 @@ namespace KDU_TTMS
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(26, 26);
+            this.label7.Location = new System.Drawing.Point(26, 55);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 21);
             this.label7.TabIndex = 44;
@@ -307,7 +309,7 @@ namespace KDU_TTMS
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(30, 66);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(30, 94);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(307, 17);
             this.guna2HtmlLabel1.TabIndex = 45;
@@ -318,22 +320,22 @@ namespace KDU_TTMS
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(30, 89);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(30, 130);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(311, 17);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(308, 17);
             this.guna2HtmlLabel2.TabIndex = 46;
-            this.guna2HtmlLabel2.Text = "John Kotelawala Defence University\r\nFaculty of Computing,\r\n";
+            this.guna2HtmlLabel2.Text = "John Kotelawala Defence University\r\nFaculty of Computing\r\n";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(30, 112);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(30, 166);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(241, 17);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(279, 17);
             this.guna2HtmlLabel3.TabIndex = 47;
-            this.guna2HtmlLabel3.Text = "capable of creating and scheduling timetable\r\n";
+            this.guna2HtmlLabel3.Text = "capable of creating, managing faculty timetable and\r\n";
             // 
             // msgTxt
             // 
@@ -389,12 +391,24 @@ namespace KDU_TTMS
             // 
             this.password_errorProvider.ContainerControl = this;
             // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(30, 202);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(151, 17);
+            this.guna2HtmlLabel4.TabIndex = 51;
+            this.guna2HtmlLabel4.Text = "course module information.";
+            // 
             // Login_Frm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(900, 600);
+            this.Controls.Add(this.guna2HtmlLabel4);
             this.Controls.Add(this.guna2ControlBox2);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.msgTxt);
@@ -459,5 +473,6 @@ namespace KDU_TTMS
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private System.Windows.Forms.ErrorProvider email_errorProvider;
         private System.Windows.Forms.ErrorProvider password_errorProvider;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }

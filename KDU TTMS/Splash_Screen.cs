@@ -16,5 +16,7 @@ namespace KDU_TTMS
         {
             InitializeComponent();
         }
+
+        //TODO use async to load the splash screen
     }
 }
