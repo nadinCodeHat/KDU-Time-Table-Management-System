@@ -2,7 +2,8 @@
 To prepare the timetable and manage its manual system, allocate lectures and send notifications by simplifying the process resource allocation.
 
 ## Required Tools
-- Visual Studio
+- Visual Studio(Latest)
+- Microsoft SQL Server Developer Edition(Latest)
 - Guna Framework
 
 
