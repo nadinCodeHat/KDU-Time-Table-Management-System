@@ -1,14 +1,7 @@
 ﻿using Guna.UI2.WinForms;
 using KDU_TTMS.Properties;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KDU_TTMS
@@ -42,12 +35,12 @@ namespace KDU_TTMS
         }
 
         //Check whether fields are empty
-        public Boolean isEmpty(Guna2TextBox txt)
+        public Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
         {
             if (string.IsNullOrEmpty(txt.Text))
             {
-                txt.BorderColor = Color.Red;
-                txt.FocusedState.BorderColor = Color.Red;
+                txt.BorderColor = colorB;
+                txt.FocusedState.BorderColor = colorFS;
                 return true;
             }
             else
@@ -55,13 +48,13 @@ namespace KDU_TTMS
                 txt.BorderColor = Color.MediumSeaGreen;
                 txt.FocusedState.BorderColor = Color.MediumSeaGreen;
                 return false;
-            }            
+            }
         }
 
         //When emailTxt changes
         private void emailTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(emailTxt);
+            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
             if (msgTxt.Visible == true)
                 msgTxt.Visible = false;
         }
@@ -69,7 +62,7 @@ namespace KDU_TTMS
         //When passwordTxt changes
         private void passwordTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(passwordTxt);
+            isEmpty(passwordTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
             if (msgTxt.Visible == true)
                 msgTxt.Visible = false;
         }
@@ -90,15 +83,15 @@ namespace KDU_TTMS
         //Login Button is Clicked
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if(isEmpty(emailTxt) == true || isEmpty(passwordTxt) == true)
-            {
-                createMsg("Please enter your email and password!");
-            }
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMsg("Please enter your email!");
+            if (isEmpty(passwordTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMsg("Please enter your password!");
             else
             {
-              //  SqlConnection con = new SqlConnection(Conn);
+                //  SqlConnection con = new SqlConnection(Conn);
                 string loginQuery = "SELECT email,password from login WHERE email = '" + emailTxt.Text + "' and password ='" + passwordTxt.Text;
-                
+
             }
         }
     }
