@@ -53,14 +53,10 @@ namespace KDU_TTMS
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.picture_bgrnd = new System.Windows.Forms.PictureBox();
-            this.email_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
-            this.password_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.passwordTxt = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.email_errorProvider)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.password_errorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,6 +122,7 @@ namespace KDU_TTMS
             this.loginBtn.Size = new System.Drawing.Size(247, 45);
             this.loginBtn.TabIndex = 10;
             this.loginBtn.Text = "LOGIN";
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // emailTxt
             // 
@@ -144,7 +141,6 @@ namespace KDU_TTMS
             this.emailTxt.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.emailTxt.HoverState.Parent = this.emailTxt;
-            this.email_errorProvider.SetIconPadding(this.emailTxt, 5);
             this.emailTxt.Location = new System.Drawing.Point(548, 276);
             this.emailTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.emailTxt.Name = "emailTxt";
@@ -348,15 +344,6 @@ namespace KDU_TTMS
             this.picture_bgrnd.TabStop = false;
             this.picture_bgrnd.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picture_bgrnd_MouseDown);
             // 
-            // email_errorProvider
-            // 
-            this.email_errorProvider.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.NeverBlink;
-            this.email_errorProvider.ContainerControl = this;
-            // 
-            // password_errorProvider
-            // 
-            this.password_errorProvider.ContainerControl = this;
-            // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
@@ -447,8 +434,6 @@ namespace KDU_TTMS
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KDU TTMS - Login";
             ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.email_errorProvider)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.password_errorProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -480,8 +465,6 @@ namespace KDU_TTMS
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private System.Windows.Forms.ErrorProvider email_errorProvider;
-        private System.Windows.Forms.ErrorProvider password_errorProvider;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }
