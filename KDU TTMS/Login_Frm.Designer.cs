@@ -37,11 +37,8 @@ namespace KDU_TTMS
             this.label4 = new System.Windows.Forms.Label();
             this.loginBtn = new Guna.UI2.WinForms.Guna2Button();
             this.emailTxt = new Guna.UI2.WinForms.Guna2TextBox();
-            this.passwordTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.picture_bgrnd = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -58,10 +55,13 @@ namespace KDU_TTMS
             this.email_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.password_errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.passwordTxt = new Guna.UI2.WinForms.Guna2TextBox();
+            this.picture_bgrnd = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.email_errorProvider)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.password_errorProvider)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -130,6 +130,7 @@ namespace KDU_TTMS
             // emailTxt
             // 
             this.emailTxt.Animated = true;
+            this.emailTxt.BackColor = System.Drawing.Color.Transparent;
             this.emailTxt.BorderRadius = 6;
             this.emailTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.emailTxt.DefaultText = "";
@@ -153,35 +154,8 @@ namespace KDU_TTMS
             this.emailTxt.Size = new System.Drawing.Size(247, 36);
             this.emailTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.emailTxt.TabIndex = 11;
-            // 
-            // passwordTxt
-            // 
-            this.passwordTxt.Animated = true;
-            this.passwordTxt.BackColor = System.Drawing.Color.Transparent;
-            this.passwordTxt.BorderRadius = 6;
-            this.passwordTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.passwordTxt.DefaultText = "";
-            this.passwordTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.passwordTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.passwordTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.passwordTxt.DisabledState.Parent = this.passwordTxt;
-            this.passwordTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.passwordTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTxt.FocusedState.Parent = this.passwordTxt;
-            this.passwordTxt.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.passwordTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.passwordTxt.HoverState.Parent = this.passwordTxt;
-            this.passwordTxt.Location = new System.Drawing.Point(548, 347);
-            this.passwordTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.passwordTxt.Name = "passwordTxt";
-            this.passwordTxt.PasswordChar = '\0';
-            this.passwordTxt.PlaceholderText = "";
-            this.passwordTxt.SelectedText = "";
-            this.passwordTxt.ShadowDecoration.Parent = this.passwordTxt;
-            this.passwordTxt.Size = new System.Drawing.Size(247, 36);
-            this.passwordTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
-            this.passwordTxt.TabIndex = 12;
-            this.passwordTxt.UseSystemPasswordChar = true;
+            this.emailTxt.Enter += new System.EventHandler(this.emailTxt_Enter);
+            this.emailTxt.Leave += new System.EventHandler(this.emailTxt_Leave);
             // 
             // label5
             // 
@@ -215,26 +189,6 @@ namespace KDU_TTMS
             this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
             this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2CheckBox1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(548, 95);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
-            // picture_bgrnd
-            // 
-            this.picture_bgrnd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picture_bgrnd.Image = ((System.Drawing.Image)(resources.GetObject("picture_bgrnd.Image")));
-            this.picture_bgrnd.Location = new System.Drawing.Point(0, 0);
-            this.picture_bgrnd.Name = "picture_bgrnd";
-            this.picture_bgrnd.Size = new System.Drawing.Size(900, 600);
-            this.picture_bgrnd.TabIndex = 17;
-            this.picture_bgrnd.TabStop = false;
             // 
             // label6
             // 
@@ -402,6 +356,58 @@ namespace KDU_TTMS
             this.guna2HtmlLabel4.TabIndex = 51;
             this.guna2HtmlLabel4.Text = "course module information.";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(548, 95);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // passwordTxt
+            // 
+            this.passwordTxt.Animated = true;
+            this.passwordTxt.BackColor = System.Drawing.Color.Transparent;
+            this.passwordTxt.BorderRadius = 6;
+            this.passwordTxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passwordTxt.DefaultText = "";
+            this.passwordTxt.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.passwordTxt.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.passwordTxt.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passwordTxt.DisabledState.Parent = this.passwordTxt;
+            this.passwordTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.passwordTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passwordTxt.FocusedState.Parent = this.passwordTxt;
+            this.passwordTxt.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.passwordTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.passwordTxt.HoverState.Parent = this.passwordTxt;
+            this.passwordTxt.IconRight = global::KDU_TTMS.Properties.Resources.toggle_on_30px;
+            this.passwordTxt.IconRightCursor = System.Windows.Forms.Cursors.Hand;
+            this.passwordTxt.IconRightSize = new System.Drawing.Size(30, 30);
+            this.passwordTxt.Location = new System.Drawing.Point(548, 347);
+            this.passwordTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.passwordTxt.Name = "passwordTxt";
+            this.passwordTxt.PasswordChar = '●';
+            this.passwordTxt.PlaceholderText = "";
+            this.passwordTxt.SelectedText = "";
+            this.passwordTxt.ShadowDecoration.Parent = this.passwordTxt;
+            this.passwordTxt.Size = new System.Drawing.Size(247, 36);
+            this.passwordTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
+            this.passwordTxt.TabIndex = 12;
+            this.passwordTxt.IconRightClick += new System.EventHandler(this.passwordTxt_IconRightClick);
+            // 
+            // picture_bgrnd
+            // 
+            this.picture_bgrnd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picture_bgrnd.Image = ((System.Drawing.Image)(resources.GetObject("picture_bgrnd.Image")));
+            this.picture_bgrnd.Location = new System.Drawing.Point(0, 0);
+            this.picture_bgrnd.Name = "picture_bgrnd";
+            this.picture_bgrnd.Size = new System.Drawing.Size(900, 600);
+            this.picture_bgrnd.TabIndex = 17;
+            this.picture_bgrnd.TabStop = false;
+            // 
             // Login_Frm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -437,10 +443,11 @@ namespace KDU_TTMS
             this.Name = "Login_Frm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KDU TTMS - Login";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).EndInit();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Login_Frm_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.email_errorProvider)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.password_errorProvider)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

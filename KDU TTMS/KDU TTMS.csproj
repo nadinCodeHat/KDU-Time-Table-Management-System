@@ -103,5 +103,11 @@
   <ItemGroup>
     <None Include="Resources\kdu_logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toggle_off_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toggle_on_30px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
