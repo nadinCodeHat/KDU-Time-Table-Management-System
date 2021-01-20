@@ -18,33 +18,15 @@ namespace KDU_TTMS
         {
             InitializeComponent();
         }
-    
 
-        // TODO when user clicks on the txt and types turn border green and right corner show a tick image 
-        // do the above for password txt as well.
+        // TODO
         // if fields are empty turn border to red and show error provider
-        // Caps on/off
-        // show/hide password
-       
+
         // Create message
         public void createMsg(String passTxt,Color passColor)
         {
             msgTxt.Text = passTxt;
             msgTxt.ForeColor = passColor;
-        }
-
-        // Detect casplock
-        private void Login_Frm_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (Control.IsKeyLocked(Keys.CapsLock))
-            {
-                msgTxt.Visible = true;
-                createMsg("Capslock is turned ON!", Color.Yellow);
-            }
-            else
-            {
-                msgTxt.Visible = false;
-            }
         }
 
         // Password hide/reveal
@@ -64,29 +46,39 @@ namespace KDU_TTMS
             passwordTxt.PasswordChar = isPassHidden ? '\0' : '●';
         }
 
-        // Leaving email
-        private void emailTxt_Leave(object sender, EventArgs e)
+        // Check field empty
+        public void isEmpty(Guna2TextBox txt)
         {
-            if (string.IsNullOrEmpty(emailTxt.Text))
+            if (string.IsNullOrEmpty(txt.Text))
             {
-                emailTxt.BorderColor = Color.Red;
+                txt.BorderColor = Color.FromArgb(213, 218, 223);
+                txt.FocusedState.BorderColor = Color.FromArgb(55, 81, 228);
             }
             else
             {
-                emailTxt.BorderColor = Color.MediumSeaGreen;
-            }
+                txt.BorderColor = Color.MediumSeaGreen;
+                txt.FocusedState.BorderColor = Color.MediumSeaGreen;
+            }            
         }
 
-        private void emailTxt_Enter(object sender, EventArgs e)
+        // When emailTxt changes
+        private void emailTxt_TextChanged(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(emailTxt.Text))
-            {
-                emailTxt.BorderColor = Color.Red;
-            }
-            else
-            {
-                emailTxt.BorderColor = Color.MediumSeaGreen;
-            }
+            isEmpty(emailTxt);
         }
+
+        // When passwordTxt changes
+        private void passwordTxt_TextChanged(object sender, EventArgs e)
+        {
+            isEmpty(passwordTxt);
+        }
+
+        // Lose control when clicked outside the fields
+        private void picture_bgrnd_MouseDown(object sender, MouseEventArgs e)
+        {
+            ActiveControl = null;
+        }
+
+       
     }
 }
