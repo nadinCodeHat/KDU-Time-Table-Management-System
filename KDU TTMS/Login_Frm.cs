@@ -19,7 +19,7 @@ namespace KDU_TTMS
         }
 
         //@TODO
-        //Create a home page for separate user login
+        //Create different user roles in the database
 
         private void Login_Frm_Load(object sender, EventArgs e)
         {
