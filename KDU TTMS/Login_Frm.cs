@@ -3,6 +3,7 @@ using KDU_TTMS.Properties;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace KDU_TTMS
 {
@@ -11,6 +12,8 @@ namespace KDU_TTMS
         public Login_Frm()
         {
             InitializeComponent();
+            //Connection String 
+            string con_string = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
         }
 
         // TODO
@@ -89,7 +92,7 @@ namespace KDU_TTMS
                 createMsg("Please enter your password!");
             else
             {
-                //  SqlConnection con = new SqlConnection(Conn);
+                SqlConnection con = new SqlConnection(Conn);
                 string loginQuery = "SELECT email,password from login WHERE email = '" + emailTxt.Text + "' and password ='" + passwordTxt.Text;
 
             }
