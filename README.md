@@ -36,5 +36,5 @@ Check out the guna installation tutorial [Download and install Guna UI .Net Fram
 
 ```c#
 //Connection String
-string con_string = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
+string connectionString = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
 ```
