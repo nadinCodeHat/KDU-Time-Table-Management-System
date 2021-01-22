@@ -20,3 +20,21 @@ To prepare the timetable and manage its manual system, allocate lectures and sen
 9. Guna framework is activated and now you can open and run the application
 
 Check out the guna installation tutorial [Download and install Guna UI .Net Framework latest [2020]](https://www.youtube.com/watch?v=Rx40_T_yPZ0&t=130s)
+
+
+## Additional Information
+- Connection String to SQL Server is stored in the App.config file
+- System.Configuration library is needed ( Add Reference -> Framework -> System.Configuration)
+    
+```xml
+<connectionStrings>
+        <add name="con_string"
+        connectionString="Data Source=DESKTOP-T132NFE;Initial Catalog=ttmsdb;Integrated Security=True;"
+        providerName="System.Data.SqlClient"/>
+</connectionStrings>
+```
+
+```c#
+//Connection String
+string con_string = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
+```
