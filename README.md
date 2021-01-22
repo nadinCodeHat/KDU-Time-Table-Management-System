@@ -24,7 +24,7 @@ Check out the guna installation tutorial [Download and install Guna UI .Net Fram
 
 ## Additional Information
 - Connection String to SQL Server is stored in the App.config file
-- System.Configuration library is needed ( Add Reference -> Framework -> System.Configuration
+- System.Configuration library is needed ( Add Reference -> Framework -> System.Configuration)
     
 ```xml
 <connectionStrings>
