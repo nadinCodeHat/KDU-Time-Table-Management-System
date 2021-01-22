@@ -4,21 +4,27 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Configuration;
+using System.Data.SqlClient;
 
 namespace KDU_TTMS
 {
     public partial class Login_Frm : Form
     {
+        //Connection String 
+        string connectionString = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
+
         public Login_Frm()
         {
             InitializeComponent();
-            //Connection String 
-            string con_string = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
         }
 
-        // TODO
-        // if fields are empty turn border to red and show error provider
+        //@TODO
+        //Create a home page for separate user login
 
+        private void Login_Frm_Load(object sender, EventArgs e)
+        {
+            
+        }
 
         //Password hide/reveal
         private bool isPassHidden = false;
@@ -92,10 +98,22 @@ namespace KDU_TTMS
                 createMsg("Please enter your password!");
             else
             {
-                SqlConnection con = new SqlConnection(Conn);
-                string loginQuery = "SELECT email,password from login WHERE email = '" + emailTxt.Text + "' and password ='" + passwordTxt.Text;
-
+                SqlConnection con = new SqlConnection(connectionString);
+                con.Open();
+                string loginQuery = "SELECT email,password,usertype from login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
+                SqlCommand cmd = new SqlCommand(loginQuery, con);
+                SqlDataReader dr = cmd.ExecuteReader();
+                while (dr.Read())
+                {
+                    if (dr.HasRows)
+                    {   
+                        if(dr.GetString(2) == "Student")
+                        {
+                            MessageBox.Show("Hello");
+                        }
+                    }
+                }    
             }
         }
-    }
+    }     
 }

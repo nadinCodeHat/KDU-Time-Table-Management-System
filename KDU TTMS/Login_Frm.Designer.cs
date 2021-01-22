@@ -433,6 +433,7 @@ namespace KDU_TTMS
             this.Name = "Login_Frm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KDU TTMS - Login";
+            this.Load += new System.EventHandler(this.Login_Frm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picture_bgrnd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
