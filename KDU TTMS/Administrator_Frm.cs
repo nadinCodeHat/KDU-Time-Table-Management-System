@@ -18,6 +18,10 @@ namespace KDU_TTMS
         }
 
         //Change navigation panel text to a lighter color
+        //top part show intake and number of students
+        //lecturers show department wise
+        //number of modules and department wise
+        //intakes and streams
 
         private void dashboardBtn_Click(object sender, EventArgs e)
         {
@@ -143,6 +147,11 @@ namespace KDU_TTMS
             assistantsBtn.Checked = false;
             lecturehallsBtn.Checked = false;
             profileBtn.Checked = true;
+        }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

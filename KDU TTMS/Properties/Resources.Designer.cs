@@ -143,6 +143,16 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap intake_gold_50px {
+            get {
+                object obj = ResourceManager.GetObject("intake_gold_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kdu_logo {
             get {
                 object obj = ResourceManager.GetObject("kdu_logo", resourceCulture);
@@ -166,6 +176,16 @@ namespace KDU_TTMS.Properties {
         internal static System.Drawing.Bitmap lecturer_blue_50px {
             get {
                 object obj = ResourceManager.GetObject("lecturer_blue_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lecturer_green_50px {
+            get {
+                object obj = ResourceManager.GetObject("lecturer_green_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +226,16 @@ namespace KDU_TTMS.Properties {
         internal static System.Drawing.Bitmap module_blue_50px {
             get {
                 object obj = ResourceManager.GetObject("module_blue_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap module_red_50px {
+            get {
+                object obj = ResourceManager.GetObject("module_red_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -179,5 +179,14 @@
   <ItemGroup>
     <None Include="Resources\logout_black_50px.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\module_red_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intake_gold_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecturer_green_50px.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
