@@ -23,3 +23,4 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csproj.CoreC
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csproj.CopyComplete
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.exe
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.pdb
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Administrator_Frm.resources

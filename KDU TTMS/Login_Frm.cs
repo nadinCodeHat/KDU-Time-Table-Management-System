@@ -115,5 +115,10 @@ namespace KDU_TTMS
                 }    
             }
         }
+
+        private void picture_bgrnd_Click(object sender, EventArgs e)
+        {
+
+        }
     }     
 }

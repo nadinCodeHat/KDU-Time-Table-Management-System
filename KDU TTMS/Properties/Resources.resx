@@ -118,13 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="student_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kdu_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kdu_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intake_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intake_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timetable_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timetable_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="toggle_on_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toggle_on_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timetable_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\timetable_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="class_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\class_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="intake_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intake_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="module_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\module_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lecturer_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lecturer_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dashboard_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dashboard_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="assistant_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\assistant_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="student_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\student_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="class_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\class_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="module_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\module_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="toggle_off_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\toggle_off_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="toggle_on_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\toggle_on_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lecturer_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lecturer_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_blue_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_blue_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_black_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_black_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

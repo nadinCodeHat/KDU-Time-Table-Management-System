@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator_Frm.Designer.cs">
+      <DependentUpon>Administrator_Frm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_Frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrator_Frm.resx">
+      <DependentUpon>Administrator_Frm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Frm.resx">
       <DependentUpon>Login_Frm.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,6 +118,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\toggle_on_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assistant_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assistant_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecturer_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecturer_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\module_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\module_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intake_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intake_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timetable_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timetable_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_black_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_blue_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_black_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

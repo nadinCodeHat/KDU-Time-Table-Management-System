@@ -342,6 +342,7 @@ namespace KDU_TTMS
             this.picture_bgrnd.Size = new System.Drawing.Size(900, 600);
             this.picture_bgrnd.TabIndex = 17;
             this.picture_bgrnd.TabStop = false;
+            this.picture_bgrnd.Click += new System.EventHandler(this.picture_bgrnd_Click);
             this.picture_bgrnd.MouseDown += new System.Windows.Forms.MouseEventHandler(this.picture_bgrnd_MouseDown);
             // 
             // guna2HtmlLabel4
