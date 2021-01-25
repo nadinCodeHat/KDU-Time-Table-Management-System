@@ -46,10 +46,23 @@ namespace KDU_TTMS
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel2 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel5 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel6 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel7 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2ShadowPanel8 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.guna2Panel1.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -76,9 +89,9 @@ namespace KDU_TTMS
             this.panel3.Controls.Add(this.timetableBtn);
             this.panel3.Controls.Add(this.logoutBtn);
             this.panel3.Controls.Add(this.dashboardBtn);
-            this.panel3.Location = new System.Drawing.Point(14, 100);
+            this.panel3.Location = new System.Drawing.Point(14, 104);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(185, 606);
+            this.panel3.Size = new System.Drawing.Size(185, 602);
             this.panel3.TabIndex = 4;
             // 
             // indicator
@@ -100,7 +113,7 @@ namespace KDU_TTMS
             this.profileBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.profileBtn.FillColor = System.Drawing.Color.White;
             this.profileBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.profileBtn.ForeColor = System.Drawing.Color.Black;
+            this.profileBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.profileBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.profileBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.profileBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.profile_blue_50px;
@@ -130,7 +143,7 @@ namespace KDU_TTMS
             this.lecturehallsBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.lecturehallsBtn.FillColor = System.Drawing.Color.White;
             this.lecturehallsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lecturehallsBtn.ForeColor = System.Drawing.Color.Black;
+            this.lecturehallsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.lecturehallsBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.lecturehallsBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.lecturehallsBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.class_blue_50px;
@@ -160,7 +173,7 @@ namespace KDU_TTMS
             this.assistantsBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.assistantsBtn.FillColor = System.Drawing.Color.White;
             this.assistantsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.assistantsBtn.ForeColor = System.Drawing.Color.Black;
+            this.assistantsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.assistantsBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.assistantsBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.assistantsBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.assistant_blue_50px;
@@ -190,7 +203,7 @@ namespace KDU_TTMS
             this.intakesBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.intakesBtn.FillColor = System.Drawing.Color.White;
             this.intakesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.intakesBtn.ForeColor = System.Drawing.Color.Black;
+            this.intakesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.intakesBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.intakesBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.intakesBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.intake_blue_50px;
@@ -220,7 +233,7 @@ namespace KDU_TTMS
             this.modulesBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.modulesBtn.FillColor = System.Drawing.Color.White;
             this.modulesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.modulesBtn.ForeColor = System.Drawing.Color.Black;
+            this.modulesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.modulesBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.modulesBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.modulesBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.module_blue_50px;
@@ -250,7 +263,7 @@ namespace KDU_TTMS
             this.lecturersBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.lecturersBtn.FillColor = System.Drawing.Color.White;
             this.lecturersBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lecturersBtn.ForeColor = System.Drawing.Color.Black;
+            this.lecturersBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.lecturersBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.lecturersBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.lecturersBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.lecturer_blue_50px;
@@ -280,7 +293,7 @@ namespace KDU_TTMS
             this.studentsBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.studentsBtn.FillColor = System.Drawing.Color.White;
             this.studentsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.studentsBtn.ForeColor = System.Drawing.Color.Black;
+            this.studentsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.studentsBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.studentsBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.studentsBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.student_blue_50px;
@@ -310,7 +323,7 @@ namespace KDU_TTMS
             this.timetableBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.timetableBtn.FillColor = System.Drawing.Color.White;
             this.timetableBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.timetableBtn.ForeColor = System.Drawing.Color.Black;
+            this.timetableBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.timetableBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.timetableBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.timetableBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.timetable_blue_50px;
@@ -340,7 +353,7 @@ namespace KDU_TTMS
             this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.logoutBtn.FillColor = System.Drawing.Color.White;
             this.logoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.logoutBtn.ForeColor = System.Drawing.Color.Black;
+            this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.logoutBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.logoutBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.logoutBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.logout_blue_50px;
@@ -348,7 +361,7 @@ namespace KDU_TTMS
             this.logoutBtn.Image = global::KDU_TTMS.Properties.Resources.logout_black_50px;
             this.logoutBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.logoutBtn.ImageOffset = new System.Drawing.Point(15, 0);
-            this.logoutBtn.Location = new System.Drawing.Point(0, 566);
+            this.logoutBtn.Location = new System.Drawing.Point(0, 562);
             this.logoutBtn.Name = "logoutBtn";
             this.logoutBtn.PressedDepth = 0;
             this.logoutBtn.ShadowDecoration.Parent = this.logoutBtn;
@@ -370,7 +383,7 @@ namespace KDU_TTMS
             this.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Top;
             this.dashboardBtn.FillColor = System.Drawing.Color.White;
             this.dashboardBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dashboardBtn.ForeColor = System.Drawing.Color.Black;
+            this.dashboardBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
             this.dashboardBtn.HoverState.FillColor = System.Drawing.Color.White;
             this.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.dashboardBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.dashboard_blue_50px;
@@ -414,7 +427,7 @@ namespace KDU_TTMS
             this.guna2ControlBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.guna2ControlBox1.HoverState.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(1322, 0);
+            this.guna2ControlBox1.Location = new System.Drawing.Point(1109, 0);
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.ShadowDecoration.Parent = this.guna2ControlBox1;
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
@@ -422,11 +435,154 @@ namespace KDU_TTMS
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Location = new System.Drawing.Point(218, 22);
+            this.guna2Panel1.BackColor = System.Drawing.Color.White;
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox2);
+            this.guna2Panel1.Controls.Add(this.guna2ControlBox1);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel1.FillColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(212, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(675, 100);
+            this.guna2Panel1.Size = new System.Drawing.Size(1154, 94);
             this.guna2Panel1.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(51, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(109, 25);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Dashboard";
+            // 
+            // guna2ControlBox2
+            // 
+            this.guna2ControlBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox2.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.guna2ControlBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
+            this.guna2ControlBox2.HoverState.Parent = this.guna2ControlBox2;
+            this.guna2ControlBox2.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox2.Location = new System.Drawing.Point(1064, 0);
+            this.guna2ControlBox2.Name = "guna2ControlBox2";
+            this.guna2ControlBox2.ShadowDecoration.Parent = this.guna2ControlBox2;
+            this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox2.TabIndex = 4;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel1);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel2);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel3);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel4);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel5);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel6);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel7);
+            this.flowLayoutPanel1.Controls.Add(this.guna2ShadowPanel8);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(212, 94);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(30, 0, 10, 10);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1154, 674);
+            this.flowLayoutPanel1.TabIndex = 4;
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(56, 10);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.ShadowDepth = 10;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(325, 203);
+            this.guna2ShadowPanel1.TabIndex = 0;
+            // 
+            // guna2ShadowPanel2
+            // 
+            this.guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(407, 10);
+            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
+            this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel2.ShadowDepth = 10;
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(325, 203);
+            this.guna2ShadowPanel2.TabIndex = 1;
+            // 
+            // guna2ShadowPanel3
+            // 
+            this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(758, 10);
+            this.guna2ShadowPanel3.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
+            this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel3.ShadowDepth = 10;
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(325, 203);
+            this.guna2ShadowPanel3.TabIndex = 2;
+            // 
+            // guna2ShadowPanel4
+            // 
+            this.guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel4.Location = new System.Drawing.Point(56, 233);
+            this.guna2ShadowPanel4.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
+            this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel4.ShadowDepth = 10;
+            this.guna2ShadowPanel4.Size = new System.Drawing.Size(676, 203);
+            this.guna2ShadowPanel4.TabIndex = 3;
+            // 
+            // guna2ShadowPanel5
+            // 
+            this.guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel5.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel5.Location = new System.Drawing.Point(758, 233);
+            this.guna2ShadowPanel5.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel5.Name = "guna2ShadowPanel5";
+            this.guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel5.ShadowDepth = 10;
+            this.guna2ShadowPanel5.Size = new System.Drawing.Size(325, 203);
+            this.guna2ShadowPanel5.TabIndex = 4;
+            // 
+            // guna2ShadowPanel6
+            // 
+            this.guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel6.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel6.Location = new System.Drawing.Point(56, 456);
+            this.guna2ShadowPanel6.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel6.Name = "guna2ShadowPanel6";
+            this.guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel6.ShadowDepth = 10;
+            this.guna2ShadowPanel6.Size = new System.Drawing.Size(676, 203);
+            this.guna2ShadowPanel6.TabIndex = 5;
+            // 
+            // guna2ShadowPanel7
+            // 
+            this.guna2ShadowPanel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel7.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel7.Location = new System.Drawing.Point(758, 456);
+            this.guna2ShadowPanel7.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel7.Name = "guna2ShadowPanel7";
+            this.guna2ShadowPanel7.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel7.ShadowDepth = 10;
+            this.guna2ShadowPanel7.Size = new System.Drawing.Size(325, 203);
+            this.guna2ShadowPanel7.TabIndex = 6;
+            // 
+            // guna2ShadowPanel8
+            // 
+            this.guna2ShadowPanel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel8.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel8.Location = new System.Drawing.Point(56, 679);
+            this.guna2ShadowPanel8.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
+            this.guna2ShadowPanel8.Name = "guna2ShadowPanel8";
+            this.guna2ShadowPanel8.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel8.Size = new System.Drawing.Size(676, 203);
+            this.guna2ShadowPanel8.TabIndex = 7;
             // 
             // Administrator_Frm
             // 
@@ -434,8 +590,8 @@ namespace KDU_TTMS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Administrator_Frm";
@@ -446,6 +602,9 @@ namespace KDU_TTMS
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -468,5 +627,16 @@ namespace KDU_TTMS
         private System.Windows.Forms.Panel indicator;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel2;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel3;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel4;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel5;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel6;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel7;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel8;
     }
 }

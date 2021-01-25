@@ -17,6 +17,8 @@ namespace KDU_TTMS
             InitializeComponent();
         }
 
+        //Change navigation panel text to a lighter color
+
         private void dashboardBtn_Click(object sender, EventArgs e)
         {
             indicator.Location = new Point(0, 0);
