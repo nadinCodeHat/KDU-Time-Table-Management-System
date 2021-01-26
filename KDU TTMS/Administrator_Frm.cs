@@ -15,6 +15,7 @@ namespace KDU_TTMS
         public Administrator_Frm()
         {
             InitializeComponent();
+            openDashboardForm(new Administrator_Dashboard_Frm());
         }
 
         //Change navigation panel text to a lighter color
@@ -30,6 +31,7 @@ namespace KDU_TTMS
             if (activeFormDashboard != null) activeFormDashboard.Dispose();
             activeFormDashboard = dashboard_frm;
             dashboard_frm.TopLevel = false;
+            dashboard_frm.TopMost = true;
             dashboard_frm.FormBorderStyle = FormBorderStyle.None;
             dashboard_frm.Dock = DockStyle.Fill;
             containerPanel.Controls.Add(dashboard_frm);

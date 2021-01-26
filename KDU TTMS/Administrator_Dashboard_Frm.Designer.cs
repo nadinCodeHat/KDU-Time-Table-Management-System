@@ -34,11 +34,6 @@ namespace KDU_TTMS
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -73,7 +68,6 @@ namespace KDU_TTMS
             this.guna2ShadowPanel2.SuspendLayout();
             this.guna2ShadowPanel8.SuspendLayout();
             this.guna2ShadowPanel3.SuspendLayout();
-            this.guna2ShadowPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -95,7 +89,7 @@ namespace KDU_TTMS
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(30, 0, 10, 10);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1154, 674);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1138, 645);
             this.flowLayoutPanel1.TabIndex = 5;
             // 
             // guna2ShadowPanel1
@@ -150,61 +144,6 @@ namespace KDU_TTMS
             this.label4.Size = new System.Drawing.Size(104, 15);
             this.label4.TabIndex = 15;
             this.label4.Text = "Computer Science";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
-            this.label13.Location = new System.Drawing.Point(158, 132);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(28, 15);
-            this.label13.TabIndex = 15;
-            this.label13.Text = "120";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
-            this.label12.Location = new System.Drawing.Point(176, 109);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(28, 15);
-            this.label12.TabIndex = 14;
-            this.label12.Text = "120";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
-            this.label11.Location = new System.Drawing.Point(169, 86);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 15);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "120";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
-            this.label10.Location = new System.Drawing.Point(161, 63);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 15);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "120";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(128)))), ((int)(((byte)(149)))));
-            this.label9.Location = new System.Drawing.Point(146, 40);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(76, 15);
-            this.label9.TabIndex = 11;
-            this.label9.Text = "120 ( 20.7%)";
             // 
             // label8
             // 
@@ -460,11 +399,6 @@ namespace KDU_TTMS
             // guna2ShadowPanel4
             // 
             this.guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ShadowPanel4.Controls.Add(this.label9);
-            this.guna2ShadowPanel4.Controls.Add(this.label10);
-            this.guna2ShadowPanel4.Controls.Add(this.label11);
-            this.guna2ShadowPanel4.Controls.Add(this.label12);
-            this.guna2ShadowPanel4.Controls.Add(this.label13);
             this.guna2ShadowPanel4.FillColor = System.Drawing.Color.White;
             this.guna2ShadowPanel4.Location = new System.Drawing.Point(56, 230);
             this.guna2ShadowPanel4.Margin = new System.Windows.Forms.Padding(26, 10, 0, 10);
@@ -555,7 +489,7 @@ namespace KDU_TTMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(248)))), ((int)(((byte)(248)))));
-            this.ClientSize = new System.Drawing.Size(1154, 674);
+            this.ClientSize = new System.Drawing.Size(1138, 645);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Administrator_Dashboard_Frm";
@@ -570,8 +504,6 @@ namespace KDU_TTMS
             this.guna2ShadowPanel8.PerformLayout();
             this.guna2ShadowPanel3.ResumeLayout(false);
             this.guna2ShadowPanel3.PerformLayout();
-            this.guna2ShadowPanel4.ResumeLayout(false);
-            this.guna2ShadowPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -588,11 +520,6 @@ namespace KDU_TTMS
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
