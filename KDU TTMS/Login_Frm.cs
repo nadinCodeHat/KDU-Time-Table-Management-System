@@ -1,10 +1,10 @@
 ﻿using Guna.UI2.WinForms;
 using KDU_TTMS.Properties;
 using System;
-using System.Drawing;
-using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Windows.Forms;
 
 namespace KDU_TTMS
 {
@@ -23,7 +23,7 @@ namespace KDU_TTMS
 
         private void Login_Frm_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         //Password hide/reveal
@@ -106,13 +106,13 @@ namespace KDU_TTMS
                 while (dr.Read())
                 {
                     if (dr.HasRows)
-                    {   
-                        if(dr.GetString(2) == "Student")
+                    {
+                        if (dr.GetString(2) == "Student")
                         {
                             MessageBox.Show("Hello");
                         }
                     }
-                }    
+                }
             }
         }
 
@@ -120,5 +120,5 @@ namespace KDU_TTMS
         {
 
         }
-    }     
+    }
 }

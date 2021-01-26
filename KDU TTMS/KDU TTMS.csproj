@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrator_Dashboard_Frm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator_Dashboard_Frm.Designer.cs">
+      <DependentUpon>Administrator_Dashboard_Frm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administrator_Frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Administrator_Dashboard_Frm.resx">
+      <DependentUpon>Administrator_Dashboard_Frm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administrator_Frm.resx">
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </EmbeddedResource>
