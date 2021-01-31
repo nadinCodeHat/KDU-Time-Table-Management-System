@@ -34,15 +34,12 @@ namespace KDU_TTMS
             dashboard_frm.TopMost = true;
             dashboard_frm.FormBorderStyle = FormBorderStyle.None;
             dashboard_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(dashboard_frm);
-            containerPanel.Tag = dashboard_frm;
             dashboard_frm.BringToFront();
             dashboard_frm.Show();
         }
 
         private void dashboardBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 0);
             dashboardBtn.Checked = true;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -65,15 +62,12 @@ namespace KDU_TTMS
             timetable_frm.TopLevel = false;
             timetable_frm.FormBorderStyle = FormBorderStyle.None;
             timetable_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(timetable_frm);
-            containerPanel.Tag = timetable_frm;
             timetable_frm.BringToFront();
             timetable_frm.Show();
         }
 
         private void timetableBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 40);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = true;
             studentsBtn.Checked = false;
@@ -96,15 +90,12 @@ namespace KDU_TTMS
             student_frm.TopLevel = false;
             student_frm.FormBorderStyle = FormBorderStyle.None;
             student_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(student_frm);
-            containerPanel.Tag = student_frm;
             student_frm.BringToFront();
             student_frm.Show();
         }
 
         private void studentsBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 80);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = true;
@@ -127,15 +118,12 @@ namespace KDU_TTMS
             lecturers_frm.TopLevel = false;
             lecturers_frm.FormBorderStyle = FormBorderStyle.None;
             lecturers_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(lecturers_frm);
-            containerPanel.Tag = lecturers_frm;
             lecturers_frm.BringToFront();
             lecturers_frm.Show();
         }
 
         private void lecturersBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 120);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -158,15 +146,12 @@ namespace KDU_TTMS
             modules_frm.TopLevel = false;
             modules_frm.FormBorderStyle = FormBorderStyle.None;
             modules_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(modules_frm);
-            containerPanel.Tag = modules_frm;
             modules_frm.BringToFront();
             modules_frm.Show();
         }
 
         private void modulesBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 160);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -189,15 +174,12 @@ namespace KDU_TTMS
             intakes_frm.TopLevel = false;
             intakes_frm.FormBorderStyle = FormBorderStyle.None;
             intakes_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(intakes_frm);
-            containerPanel.Tag = intakes_frm;
             intakes_frm.BringToFront();
             intakes_frm.Show();
         }
 
         private void intakesBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 200);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -220,15 +202,12 @@ namespace KDU_TTMS
             assistant_frm.TopLevel = false;
             assistant_frm.FormBorderStyle = FormBorderStyle.None;
             assistant_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(assistant_frm);
-            containerPanel.Tag = assistant_frm;
             assistant_frm.BringToFront();
             assistant_frm.Show();
         }
 
         private void assistantsBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 240);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -251,15 +230,12 @@ namespace KDU_TTMS
             lecturehalls_frm.TopLevel = false;
             lecturehalls_frm.FormBorderStyle = FormBorderStyle.None;
             lecturehalls_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(lecturehalls_frm);
-            containerPanel.Tag = lecturehalls_frm;
             lecturehalls_frm.BringToFront();
             lecturehalls_frm.Show();
         }
 
         private void lecturehallsBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 280);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -282,15 +258,12 @@ namespace KDU_TTMS
             profile_frm.TopLevel = false;
             profile_frm.FormBorderStyle = FormBorderStyle.None;
             profile_frm.Dock = DockStyle.Fill;
-            containerPanel.Controls.Add(profile_frm);
-            containerPanel.Tag = profile_frm;
             profile_frm.BringToFront();
             profile_frm.Show();
         }
 
         private void profileBtn_Click(object sender, EventArgs e)
         {
-            indicator.Location = new Point(0, 320);
             dashboardBtn.Checked = false;
             timetableBtn.Checked = false;
             studentsBtn.Checked = false;
@@ -302,6 +275,11 @@ namespace KDU_TTMS
             profileBtn.Checked = true;
             //Show Profiles Form
             //openProfileForm(new Profile_frm());
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

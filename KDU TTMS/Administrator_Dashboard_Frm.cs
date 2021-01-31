@@ -24,31 +24,31 @@ namespace KDU_TTMS
             cs.Font = new Font("Segoe UI", 9, FontStyle.Bold);
             cs.ForeColor = Color.FromArgb(113, 128, 149);
             cs.Location = new Point(125, 75);
-            guna2ShadowPanel1.Controls.Add(cs);         
+           // studentsPanel.Controls.Add(cs);         
             //software engineering
             se.Text = "bn";
             se.Font = new Font("Segoe UI", 9, FontStyle.Bold);
             se.ForeColor = Color.FromArgb(113, 128, 149);
             se.Location = new Point(140, 98);
-            guna2ShadowPanel1.Controls.Add(se);
+         //   studentsPanel.Controls.Add(se);
             //computer engineering
             ce.Text = "sdf";
             ce.Font = new Font("Segoe UI", 9, FontStyle.Bold);
             ce.ForeColor = Color.FromArgb(113, 128, 149);
             ce.Location = new Point(148, 121);
-            guna2ShadowPanel1.Controls.Add(ce);
+          //  studentsPanel.Controls.Add(ce);
             //information technology
             it.Text = "fgfg";
             it.Font = new Font("Segoe UI", 9, FontStyle.Bold);
             it.ForeColor = Color.FromArgb(113, 128, 149);
             it.Location = new Point(155, 144);
-            guna2ShadowPanel1.Controls.Add(it);
+           // studentsPanel.Controls.Add(it);
             //information system
             iS.Text = "sd";
             iS.Font = new Font("Segoe UI", 9, FontStyle.Bold);
             iS.ForeColor = Color.FromArgb(113, 128, 149);
             iS.Location = new Point(137, 167);
-            guna2ShadowPanel1.Controls.Add(iS);
+           // studentsPanel.Controls.Add(iS);
         }
    
         private void createLecturerValues()
@@ -62,6 +62,11 @@ namespace KDU_TTMS
         }
 
         private void createModuleValues()
+        {
+
+        }
+
+        private void Administrator_Dashboard_Frm_Load(object sender, System.EventArgs e)
         {
 
         }

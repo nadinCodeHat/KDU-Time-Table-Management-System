@@ -70,6 +70,11 @@
     <Compile Include="Login_Frm.Designer.cs">
       <DependentUpon>Login_Frm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Register_Frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,14 +103,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -129,73 +129,97 @@
     <None Include="Resources\toggle_on_30px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\class_black_50px.png" />
+    <None Include="Resources\avatar.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\assistant_blue_50px.png" />
+    <None Include="Resources\assistant_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\assistant_black_50px.png" />
+    <None Include="Resources\assistant_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\lecturer_black_50px.png" />
+    <None Include="Resources\dashboard_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\lecturer_blue_50px.png" />
+    <None Include="Resources\dashboard_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\class_blue_50px.png" />
+    <None Include="Resources\intake_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\profile_blue_50px.png" />
+    <None Include="Resources\intake_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\module_blue_50px.png" />
+    <None Include="Resources\lecturehall_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\module_black_50px.png" />
+    <None Include="Resources\lecturehall_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\profile_black_50px.png" />
+    <None Include="Resources\lecturer_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\student_black_50px.png" />
+    <None Include="Resources\lecturer_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\student_blue_50px.png" />
+    <None Include="Resources\logout_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\intake_blue_50px.png" />
+    <None Include="Resources\logout_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\intake_black_50px.png" />
+    <None Include="Resources\modules_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timetable_black_50px.png" />
+    <None Include="Resources\modules_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timetable_blue_50px.png" />
+    <None Include="Resources\profile_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dashboard_blue_50px.png" />
+    <None Include="Resources\profile_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dashboard_black_50px.png" />
+    <None Include="Resources\student_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logout_blue_50px.png" />
+    <None Include="Resources\student_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logout_black_50px.png" />
+    <None Include="Resources\timetable_50px_1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\module_red_50px.png" />
+    <None Include="Resources\timetable_50px_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\intake_gold_50px.png" />
+    <None Include="Resources\assistant_hover_50px.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\lecturer_green_50px.png" />
+    <None Include="Resources\dashboard_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\intake_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecturehall_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lecturer_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modules_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student_hover_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timetable_hover_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

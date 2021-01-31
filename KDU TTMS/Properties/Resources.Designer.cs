@@ -63,9 +63,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_black_50px {
+        internal static System.Drawing.Bitmap assistant_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("assistant_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("assistant_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap assistant_blue_50px {
+        internal static System.Drawing.Bitmap assistant_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("assistant_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("assistant_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap class_black_50px {
+        internal static System.Drawing.Bitmap assistant_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("class_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("assistant_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap class_blue_50px {
+        internal static System.Drawing.Bitmap avatar {
             get {
-                object obj = ResourceManager.GetObject("class_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("avatar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dashboard_black_50px {
+        internal static System.Drawing.Bitmap dashboard_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("dashboard_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("dashboard_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dashboard_blue_50px {
+        internal static System.Drawing.Bitmap dashboard_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("dashboard_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("dashboard_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap intake_black_50px {
+        internal static System.Drawing.Bitmap dashboard_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("intake_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("dashboard_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap intake_blue_50px {
+        internal static System.Drawing.Bitmap intake_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("intake_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("intake_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,19 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap intake_gold_50px {
+        internal static System.Drawing.Bitmap intake_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("intake_gold_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("intake_50px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap intake_hover_50px {
+            get {
+                object obj = ResourceManager.GetObject("intake_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +173,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lecturer_black_50px {
+        internal static System.Drawing.Bitmap lecturehall_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("lecturer_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturehall_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +183,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lecturer_blue_50px {
+        internal static System.Drawing.Bitmap lecturehall_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("lecturer_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturehall_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +193,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap lecturer_green_50px {
+        internal static System.Drawing.Bitmap lecturehall_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("lecturer_green_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturehall_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +203,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logout_black_50px {
+        internal static System.Drawing.Bitmap lecturer_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("logout_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturer_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +213,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logout_blue_50px {
+        internal static System.Drawing.Bitmap lecturer_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("logout_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturer_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +223,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap module_black_50px {
+        internal static System.Drawing.Bitmap lecturer_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("module_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("lecturer_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +233,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap module_blue_50px {
+        internal static System.Drawing.Bitmap logout_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("module_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("logout_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +243,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap module_red_50px {
+        internal static System.Drawing.Bitmap logout_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("module_red_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("logout_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +253,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap profile_black_50px {
+        internal static System.Drawing.Bitmap logout_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("profile_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("logout_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +263,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap profile_blue_50px {
+        internal static System.Drawing.Bitmap modules_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("profile_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("modules_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +273,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap student_black_50px {
+        internal static System.Drawing.Bitmap modules_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("student_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("modules_50px_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +283,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap student_blue_50px {
+        internal static System.Drawing.Bitmap modules_hover_50px {
             get {
-                object obj = ResourceManager.GetObject("student_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("modules_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +293,9 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap timetable_black_50px {
+        internal static System.Drawing.Bitmap profile_50px_1 {
             get {
-                object obj = ResourceManager.GetObject("timetable_black_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("profile_50px_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +303,79 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap timetable_blue_50px {
+        internal static System.Drawing.Bitmap profile_50px_2 {
             get {
-                object obj = ResourceManager.GetObject("timetable_blue_50px", resourceCulture);
+                object obj = ResourceManager.GetObject("profile_50px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap profile_hover_50px {
+            get {
+                object obj = ResourceManager.GetObject("profile_hover_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_50px_1 {
+            get {
+                object obj = ResourceManager.GetObject("student_50px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_50px_2 {
+            get {
+                object obj = ResourceManager.GetObject("student_50px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_hover_50px {
+            get {
+                object obj = ResourceManager.GetObject("student_hover_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap timetable_50px_1 {
+            get {
+                object obj = ResourceManager.GetObject("timetable_50px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap timetable_50px_2 {
+            get {
+                object obj = ResourceManager.GetObject("timetable_50px_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap timetable_hover_50px {
+            get {
+                object obj = ResourceManager.GetObject("timetable_hover_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
