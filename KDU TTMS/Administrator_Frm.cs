@@ -276,36 +276,5 @@ namespace KDU_TTMS
         {
 
         }
-
-        private void collapse_expand(int width)
-        {
-            navigationPanel.Width = width;
-        }
-
-        private void menuBtn_Click(object sender, EventArgs e)
-        {
-            if(navigationPanel.Width == 210)
-            {
-                collapse_expand(78);
-                menuBtn.Location = new Point(29, 18);
-                kduttmslb.Hide();
-            }
-            else
-            {
-                collapse_expand(210);
-                menuBtn.Location = new Point(150, 16);
-                kduttmslb.Show();
-            }
-        }
-
-        private void label34_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label25_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
