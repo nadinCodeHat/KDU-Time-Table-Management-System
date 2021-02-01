@@ -15,14 +15,9 @@ namespace KDU_TTMS
         public Administrator_Frm()
         {
             InitializeComponent();
-            openDashboardForm(new Administrator_Dashboard_Frm());
         }
-
-        //Change navigation panel text to a lighter color
-        //top part show intake and number of students
-        //lecturers show department wise
-        //number of modules and department wise
-        //intakes and streams
+        //nav panel width 210
+        //nav panel width 78
 
         //Call Open Dashboard Form
         private Form activeFormDashboard = null;
@@ -50,7 +45,7 @@ namespace KDU_TTMS
             lecturehallsBtn.Checked = false;
             profileBtn.Checked = false;
             //Show Dashboard
-            openDashboardForm(new Administrator_Dashboard_Frm());
+           // openDashboardForm(new Administrator_Dashboard_Frm());
         }
 
         //Call Open Timetable Form
@@ -78,7 +73,7 @@ namespace KDU_TTMS
             lecturehallsBtn.Checked = false;
             profileBtn.Checked = false;
             //Show Timetable
-           // openTimetableForm(new Timetable_Frm());
+            // openTimetableForm(new Timetable_Frm());
         }
 
         //Call Open Students Form
@@ -217,8 +212,8 @@ namespace KDU_TTMS
             assistantsBtn.Checked = true;
             lecturehallsBtn.Checked = false;
             profileBtn.Checked = false;
-           //Show Asssistants From
-           //openAssistantForm(new Assistants_Frm());
+            //Show Asssistants From
+            //openAssistantForm(new Assistants_Frm());
         }
 
         //Call Open LectureHalls Form
@@ -278,6 +273,37 @@ namespace KDU_TTMS
         }
 
         private void logoutBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void collapse_expand(int width)
+        {
+            navigationPanel.Width = width;
+        }
+
+        private void menuBtn_Click(object sender, EventArgs e)
+        {
+            if(navigationPanel.Width == 210)
+            {
+                collapse_expand(78);
+                menuBtn.Location = new Point(29, 18);
+                kduttmslb.Hide();
+            }
+            else
+            {
+                collapse_expand(210);
+                menuBtn.Location = new Point(150, 16);
+                kduttmslb.Show();
+            }
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
         {
 
         }
