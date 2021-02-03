@@ -31,30 +31,16 @@ namespace KDU_TTMS
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Administrator_Frm));
             this.navigationPanel = new System.Windows.Forms.Panel();
-            this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.profileBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.lecturehallsBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.assistantsBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.intakesBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.modulesBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.lecturersBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.studentsBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.timetableBtn = new Guna.UI2.WinForms.Guna2Button();
-            this.dashboardBtn = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.kduttmslb = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
@@ -64,7 +50,6 @@ namespace KDU_TTMS
             this.label71 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.label73 = new System.Windows.Forms.Label();
-            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -73,7 +58,6 @@ namespace KDU_TTMS
             this.label8 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label10 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -93,7 +77,6 @@ namespace KDU_TTMS
             this.label58 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
@@ -103,13 +86,10 @@ namespace KDU_TTMS
             this.label65 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label66 = new System.Windows.Forms.Label();
-            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label36 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
@@ -173,7 +153,6 @@ namespace KDU_TTMS
             this.guna2CheckBox7 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.label22 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
             this.label54 = new System.Windows.Forms.Label();
@@ -200,11 +179,34 @@ namespace KDU_TTMS
             this.label104 = new System.Windows.Forms.Label();
             this.label105 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.aboutLink = new System.Windows.Forms.Label();
+            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.logoutBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.profileBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.lecturehallsBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.assistantsBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.intakesBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.modulesBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.lecturersBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.studentsBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.timetableBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.dashboardBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
             this.navigationPanel.SuspendLayout();
             this.panel2.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
@@ -232,11 +234,15 @@ namespace KDU_TTMS
             this.guna2Panel17.SuspendLayout();
             this.guna2Panel21.SuspendLayout();
             this.guna2Panel22.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // navigationPanel
             // 
             this.navigationPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.navigationPanel.Controls.Add(this.aboutLink);
+            this.navigationPanel.Controls.Add(this.label107);
+            this.navigationPanel.Controls.Add(this.label106);
             this.navigationPanel.Controls.Add(this.logoutBtn);
             this.navigationPanel.Controls.Add(this.profileBtn);
             this.navigationPanel.Controls.Add(this.lecturehallsBtn);
@@ -254,297 +260,6 @@ namespace KDU_TTMS
             this.navigationPanel.Size = new System.Drawing.Size(210, 768);
             this.navigationPanel.TabIndex = 1;
             // 
-            // logoutBtn
-            // 
-            this.logoutBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.logoutBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.logoutBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.CheckedState.Image")));
-            this.logoutBtn.CheckedState.Parent = this.logoutBtn;
-            this.logoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.logoutBtn.CustomImages.Parent = this.logoutBtn;
-            this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.logoutBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.logoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.logoutBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.logoutBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.HoverState.Image")));
-            this.logoutBtn.HoverState.Parent = this.logoutBtn;
-            this.logoutBtn.Image = global::KDU_TTMS.Properties.Resources.logout_50px;
-            this.logoutBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.logoutBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.logoutBtn.Location = new System.Drawing.Point(0, 433);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.PressedDepth = 0;
-            this.logoutBtn.ShadowDecoration.Parent = this.logoutBtn;
-            this.logoutBtn.Size = new System.Drawing.Size(210, 40);
-            this.logoutBtn.TabIndex = 14;
-            this.logoutBtn.Text = "Logout";
-            this.logoutBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.logoutBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
-            // 
-            // profileBtn
-            // 
-            this.profileBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.profileBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.profileBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.CheckedState.Image")));
-            this.profileBtn.CheckedState.Parent = this.profileBtn;
-            this.profileBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profileBtn.CustomImages.Parent = this.profileBtn;
-            this.profileBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.profileBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.profileBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.profileBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.profileBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.profileBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.HoverState.Image")));
-            this.profileBtn.HoverState.Parent = this.profileBtn;
-            this.profileBtn.Image = global::KDU_TTMS.Properties.Resources.profile_50px;
-            this.profileBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.profileBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.profileBtn.Location = new System.Drawing.Point(0, 393);
-            this.profileBtn.Name = "profileBtn";
-            this.profileBtn.PressedDepth = 0;
-            this.profileBtn.ShadowDecoration.Parent = this.profileBtn;
-            this.profileBtn.Size = new System.Drawing.Size(210, 40);
-            this.profileBtn.TabIndex = 13;
-            this.profileBtn.Text = "Profile";
-            this.profileBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.profileBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.profileBtn.Click += new System.EventHandler(this.profileBtn_Click);
-            // 
-            // lecturehallsBtn
-            // 
-            this.lecturehallsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.lecturehallsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.lecturehallsBtn.CheckedState.Image = global::KDU_TTMS.Properties.Resources.class_50px_2;
-            this.lecturehallsBtn.CheckedState.Parent = this.lecturehallsBtn;
-            this.lecturehallsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lecturehallsBtn.CustomImages.Parent = this.lecturehallsBtn;
-            this.lecturehallsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lecturehallsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.lecturehallsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lecturehallsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.lecturehallsBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.lecturehallsBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.class_50px_2;
-            this.lecturehallsBtn.HoverState.Parent = this.lecturehallsBtn;
-            this.lecturehallsBtn.Image = global::KDU_TTMS.Properties.Resources.class_50px;
-            this.lecturehallsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lecturehallsBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.lecturehallsBtn.Location = new System.Drawing.Point(0, 353);
-            this.lecturehallsBtn.Name = "lecturehallsBtn";
-            this.lecturehallsBtn.PressedDepth = 0;
-            this.lecturehallsBtn.ShadowDecoration.Parent = this.lecturehallsBtn;
-            this.lecturehallsBtn.Size = new System.Drawing.Size(210, 40);
-            this.lecturehallsBtn.TabIndex = 12;
-            this.lecturehallsBtn.Text = "Lecture Halls";
-            this.lecturehallsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lecturehallsBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.lecturehallsBtn.Click += new System.EventHandler(this.lecturehallsBtn_Click);
-            // 
-            // assistantsBtn
-            // 
-            this.assistantsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.assistantsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.assistantsBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("assistantsBtn.CheckedState.Image")));
-            this.assistantsBtn.CheckedState.Parent = this.assistantsBtn;
-            this.assistantsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.assistantsBtn.CustomImages.Parent = this.assistantsBtn;
-            this.assistantsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.assistantsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.assistantsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.assistantsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.assistantsBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.assistantsBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("assistantsBtn.HoverState.Image")));
-            this.assistantsBtn.HoverState.Parent = this.assistantsBtn;
-            this.assistantsBtn.Image = global::KDU_TTMS.Properties.Resources.assistant_50px;
-            this.assistantsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.assistantsBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.assistantsBtn.Location = new System.Drawing.Point(0, 313);
-            this.assistantsBtn.Name = "assistantsBtn";
-            this.assistantsBtn.PressedDepth = 0;
-            this.assistantsBtn.ShadowDecoration.Parent = this.assistantsBtn;
-            this.assistantsBtn.Size = new System.Drawing.Size(210, 40);
-            this.assistantsBtn.TabIndex = 11;
-            this.assistantsBtn.Text = "Assistants";
-            this.assistantsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.assistantsBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.assistantsBtn.Click += new System.EventHandler(this.assistantsBtn_Click);
-            // 
-            // intakesBtn
-            // 
-            this.intakesBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.intakesBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.intakesBtn.CheckedState.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_2;
-            this.intakesBtn.CheckedState.Parent = this.intakesBtn;
-            this.intakesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.intakesBtn.CustomImages.Parent = this.intakesBtn;
-            this.intakesBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.intakesBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.intakesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.intakesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.intakesBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.intakesBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_2;
-            this.intakesBtn.HoverState.Parent = this.intakesBtn;
-            this.intakesBtn.Image = global::KDU_TTMS.Properties.Resources.intakes_50px;
-            this.intakesBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.intakesBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.intakesBtn.Location = new System.Drawing.Point(0, 273);
-            this.intakesBtn.Name = "intakesBtn";
-            this.intakesBtn.PressedDepth = 0;
-            this.intakesBtn.ShadowDecoration.Parent = this.intakesBtn;
-            this.intakesBtn.Size = new System.Drawing.Size(210, 40);
-            this.intakesBtn.TabIndex = 10;
-            this.intakesBtn.Text = "Intakes";
-            this.intakesBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.intakesBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.intakesBtn.Click += new System.EventHandler(this.intakesBtn_Click);
-            // 
-            // modulesBtn
-            // 
-            this.modulesBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.modulesBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.modulesBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("modulesBtn.CheckedState.Image")));
-            this.modulesBtn.CheckedState.Parent = this.modulesBtn;
-            this.modulesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.modulesBtn.CustomImages.Parent = this.modulesBtn;
-            this.modulesBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.modulesBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.modulesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.modulesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.modulesBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.modulesBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("modulesBtn.HoverState.Image")));
-            this.modulesBtn.HoverState.Parent = this.modulesBtn;
-            this.modulesBtn.Image = global::KDU_TTMS.Properties.Resources.modules_50px;
-            this.modulesBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.modulesBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.modulesBtn.Location = new System.Drawing.Point(0, 233);
-            this.modulesBtn.Name = "modulesBtn";
-            this.modulesBtn.PressedDepth = 0;
-            this.modulesBtn.ShadowDecoration.Parent = this.modulesBtn;
-            this.modulesBtn.Size = new System.Drawing.Size(210, 40);
-            this.modulesBtn.TabIndex = 9;
-            this.modulesBtn.Text = "Course Modules";
-            this.modulesBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.modulesBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.modulesBtn.Click += new System.EventHandler(this.modulesBtn_Click);
-            // 
-            // lecturersBtn
-            // 
-            this.lecturersBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.lecturersBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.lecturersBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("lecturersBtn.CheckedState.Image")));
-            this.lecturersBtn.CheckedState.Parent = this.lecturersBtn;
-            this.lecturersBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lecturersBtn.CustomImages.Parent = this.lecturersBtn;
-            this.lecturersBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lecturersBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.lecturersBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.lecturersBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.lecturersBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.lecturersBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("lecturersBtn.HoverState.Image")));
-            this.lecturersBtn.HoverState.Parent = this.lecturersBtn;
-            this.lecturersBtn.Image = global::KDU_TTMS.Properties.Resources.lecturer_50px;
-            this.lecturersBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lecturersBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.lecturersBtn.Location = new System.Drawing.Point(0, 193);
-            this.lecturersBtn.Name = "lecturersBtn";
-            this.lecturersBtn.PressedDepth = 0;
-            this.lecturersBtn.ShadowDecoration.Parent = this.lecturersBtn;
-            this.lecturersBtn.Size = new System.Drawing.Size(210, 40);
-            this.lecturersBtn.TabIndex = 8;
-            this.lecturersBtn.Text = "Lecturers";
-            this.lecturersBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.lecturersBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.lecturersBtn.Click += new System.EventHandler(this.lecturersBtn_Click);
-            // 
-            // studentsBtn
-            // 
-            this.studentsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.studentsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.studentsBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("studentsBtn.CheckedState.Image")));
-            this.studentsBtn.CheckedState.Parent = this.studentsBtn;
-            this.studentsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.studentsBtn.CustomImages.Parent = this.studentsBtn;
-            this.studentsBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.studentsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.studentsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.studentsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.studentsBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.studentsBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("studentsBtn.HoverState.Image")));
-            this.studentsBtn.HoverState.Parent = this.studentsBtn;
-            this.studentsBtn.Image = global::KDU_TTMS.Properties.Resources.student_50px;
-            this.studentsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.studentsBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.studentsBtn.Location = new System.Drawing.Point(0, 153);
-            this.studentsBtn.Name = "studentsBtn";
-            this.studentsBtn.PressedDepth = 0;
-            this.studentsBtn.ShadowDecoration.Parent = this.studentsBtn;
-            this.studentsBtn.Size = new System.Drawing.Size(210, 40);
-            this.studentsBtn.TabIndex = 7;
-            this.studentsBtn.Text = "Students";
-            this.studentsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.studentsBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.studentsBtn.Click += new System.EventHandler(this.studentsBtn_Click);
-            // 
-            // timetableBtn
-            // 
-            this.timetableBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.timetableBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.timetableBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("timetableBtn.CheckedState.Image")));
-            this.timetableBtn.CheckedState.Parent = this.timetableBtn;
-            this.timetableBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.timetableBtn.CustomImages.Parent = this.timetableBtn;
-            this.timetableBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.timetableBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.timetableBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.timetableBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.timetableBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.timetableBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("timetableBtn.HoverState.Image")));
-            this.timetableBtn.HoverState.Parent = this.timetableBtn;
-            this.timetableBtn.Image = global::KDU_TTMS.Properties.Resources.timetable_50px;
-            this.timetableBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.timetableBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.timetableBtn.Location = new System.Drawing.Point(0, 113);
-            this.timetableBtn.Name = "timetableBtn";
-            this.timetableBtn.PressedDepth = 0;
-            this.timetableBtn.ShadowDecoration.Parent = this.timetableBtn;
-            this.timetableBtn.Size = new System.Drawing.Size(210, 40);
-            this.timetableBtn.TabIndex = 6;
-            this.timetableBtn.Text = "Timetable";
-            this.timetableBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.timetableBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.timetableBtn.Click += new System.EventHandler(this.timetableBtn_Click);
-            // 
-            // dashboardBtn
-            // 
-            this.dashboardBtn.Checked = true;
-            this.dashboardBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
-            this.dashboardBtn.CheckedState.ForeColor = System.Drawing.Color.White;
-            this.dashboardBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("dashboardBtn.CheckedState.Image")));
-            this.dashboardBtn.CheckedState.Parent = this.dashboardBtn;
-            this.dashboardBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.dashboardBtn.CustomImages.Parent = this.dashboardBtn;
-            this.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dashboardBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.dashboardBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dashboardBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
-            this.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.White;
-            this.dashboardBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("dashboardBtn.HoverState.Image")));
-            this.dashboardBtn.HoverState.Parent = this.dashboardBtn;
-            this.dashboardBtn.Image = global::KDU_TTMS.Properties.Resources.dashboard_50px;
-            this.dashboardBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dashboardBtn.ImageOffset = new System.Drawing.Point(20, 0);
-            this.dashboardBtn.Location = new System.Drawing.Point(0, 73);
-            this.dashboardBtn.Name = "dashboardBtn";
-            this.dashboardBtn.PressedDepth = 0;
-            this.dashboardBtn.ShadowDecoration.Parent = this.dashboardBtn;
-            this.dashboardBtn.Size = new System.Drawing.Size(210, 40);
-            this.dashboardBtn.TabIndex = 4;
-            this.dashboardBtn.Text = "Dashboard";
-            this.dashboardBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.dashboardBtn.TextOffset = new System.Drawing.Point(40, 0);
-            this.dashboardBtn.Click += new System.EventHandler(this.dashboardBtn_Click);
-            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.guna2CircleButton7);
@@ -554,24 +269,6 @@ namespace KDU_TTMS
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(210, 73);
             this.panel2.TabIndex = 5;
-            // 
-            // guna2CircleButton7
-            // 
-            this.guna2CircleButton7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton7.CheckedState.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.CustomImages.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.HoverState.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
-            this.guna2CircleButton7.ImageSize = new System.Drawing.Size(25, 20);
-            this.guna2CircleButton7.Location = new System.Drawing.Point(20, 5);
-            this.guna2CircleButton7.Name = "guna2CircleButton7";
-            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton7.ShadowDecoration.Parent = this.guna2CircleButton7;
-            this.guna2CircleButton7.Size = new System.Drawing.Size(40, 40);
-            this.guna2CircleButton7.TabIndex = 33;
             // 
             // kduttmslb
             // 
@@ -630,46 +327,12 @@ namespace KDU_TTMS
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label4.Location = new System.Drawing.Point(24, 13);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 25);
             this.label4.TabIndex = 4;
             this.label4.Text = "Dashboard";
-            // 
-            // guna2CircleButton2
-            // 
-            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.CheckedState.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.CustomImages.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Image = global::KDU_TTMS.Properties.Resources.message_50px;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(673, 5);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(40, 40);
-            this.guna2CircleButton2.TabIndex = 10;
-            // 
-            // guna2CircleButton1
-            // 
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Image = global::KDU_TTMS.Properties.Resources.notification_50px;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(731, 5);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(40, 40);
-            this.guna2CircleButton1.TabIndex = 4;
             // 
             // guna2ControlBox3
             // 
@@ -719,19 +382,6 @@ namespace KDU_TTMS
             this.label1.Size = new System.Drawing.Size(126, 15);
             this.label1.TabIndex = 25;
             this.label1.Text = "AMRNVB Pethiyagoda";
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2CirclePictureBox1.Image = global::KDU_TTMS.Properties.Resources.avatar;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(40, 40);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox1.TabIndex = 4;
-            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // guna2ControlBox2
             // 
@@ -858,23 +508,6 @@ namespace KDU_TTMS
             this.label73.TabIndex = 26;
             this.label73.Text = "120";
             // 
-            // guna2CircleButton3
-            // 
-            this.guna2CircleButton3.CheckedState.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.CustomImages.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
-            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.Image = global::KDU_TTMS.Properties.Resources.students_50px_blue;
-            this.guna2CircleButton3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton3.Location = new System.Drawing.Point(194, 17);
-            this.guna2CircleButton3.Name = "guna2CircleButton3";
-            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton3.TabIndex = 18;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -912,7 +545,7 @@ namespace KDU_TTMS
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label9.Location = new System.Drawing.Point(24, 38);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 32);
@@ -976,23 +609,6 @@ namespace KDU_TTMS
             this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
             this.guna2Panel4.Size = new System.Drawing.Size(273, 200);
             this.guna2Panel4.TabIndex = 21;
-            // 
-            // guna2CircleButton4
-            // 
-            this.guna2CircleButton4.CheckedState.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.CustomImages.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
-            this.guna2CircleButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.HoverState.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.Image = global::KDU_TTMS.Properties.Resources.lecturer_50px_blue;
-            this.guna2CircleButton4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton4.Location = new System.Drawing.Point(192, 17);
-            this.guna2CircleButton4.Name = "guna2CircleButton4";
-            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.ShadowDecoration.Parent = this.guna2CircleButton4;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton4.TabIndex = 27;
             // 
             // label10
             // 
@@ -1097,7 +713,7 @@ namespace KDU_TTMS
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label29.Location = new System.Drawing.Point(24, 38);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(43, 32);
@@ -1216,23 +832,6 @@ namespace KDU_TTMS
             this.label2.TabIndex = 29;
             this.label2.Text = "Intake 35";
             // 
-            // guna2CircleButton5
-            // 
-            this.guna2CircleButton5.CheckedState.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.CustomImages.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.HoverState.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_blue;
-            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton5.Location = new System.Drawing.Point(190, 17);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.ShadowDecoration.Parent = this.guna2CircleButton5;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton5.TabIndex = 28;
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -1248,7 +847,7 @@ namespace KDU_TTMS
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label17.Location = new System.Drawing.Point(24, 38);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(29, 32);
@@ -1343,23 +942,6 @@ namespace KDU_TTMS
             this.label66.TabIndex = 30;
             this.label66.Text = "Dept. of Computer Science";
             // 
-            // guna2CircleButton6
-            // 
-            this.guna2CircleButton6.CheckedState.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.CustomImages.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
-            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton6.HoverState.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.Image = global::KDU_TTMS.Properties.Resources.modules_50px_blue;
-            this.guna2CircleButton6.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2CircleButton6.Location = new System.Drawing.Point(191, 17);
-            this.guna2CircleButton6.Name = "guna2CircleButton6";
-            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton6.ShadowDecoration.Parent = this.guna2CircleButton6;
-            this.guna2CircleButton6.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton6.TabIndex = 29;
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -1375,7 +957,7 @@ namespace KDU_TTMS
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label20.Location = new System.Drawing.Point(24, 38);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(57, 32);
@@ -1422,34 +1004,6 @@ namespace KDU_TTMS
             this.guna2CheckBox2.UncheckedState.BorderThickness = 1;
             this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.White;
             this.guna2CheckBox2.UseVisualStyleBackColor = true;
-            // 
-            // guna2ImageButton3
-            // 
-            this.guna2ImageButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
-            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Image = global::KDU_TTMS.Properties.Resources.remove_50px;
-            this.guna2ImageButton3.Location = new System.Drawing.Point(783, 15);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton3.TabIndex = 26;
-            // 
-            // guna2ImageButton2
-            // 
-            this.guna2ImageButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Image = global::KDU_TTMS.Properties.Resources.add_50px;
-            this.guna2ImageButton2.Location = new System.Drawing.Point(747, 15);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton2.TabIndex = 25;
             // 
             // label36
             // 
@@ -2209,7 +1763,7 @@ namespace KDU_TTMS
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label22.Location = new System.Drawing.Point(23, 18);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(159, 21);
@@ -2227,20 +1781,6 @@ namespace KDU_TTMS
             this.guna2Panel11.ShadowDecoration.Parent = this.guna2Panel11;
             this.guna2Panel11.Size = new System.Drawing.Size(273, 476);
             this.guna2Panel11.TabIndex = 25;
-            // 
-            // guna2ImageButton1
-            // 
-            this.guna2ImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Image = global::KDU_TTMS.Properties.Resources.remove_50px;
-            this.guna2ImageButton1.Location = new System.Drawing.Point(212, 15);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
-            this.guna2ImageButton1.TabIndex = 27;
             // 
             // flowLayoutPanel3
             // 
@@ -2556,12 +2096,513 @@ namespace KDU_TTMS
             this.label51.AutoSize = true;
             this.label51.BackColor = System.Drawing.Color.Transparent;
             this.label51.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
+            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label51.Location = new System.Drawing.Point(23, 18);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(120, 21);
             this.label51.TabIndex = 18;
             this.label51.Text = "Recent Activity";
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label106.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.label106.Location = new System.Drawing.Point(167, 744);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(37, 15);
+            this.label106.TabIndex = 28;
+            this.label106.Text = "v1.0.1";
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.label107.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.label107.Location = new System.Drawing.Point(12, 744);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(92, 15);
+            this.label107.TabIndex = 29;
+            this.label107.Text = "© 2020 kduttms";
+            // 
+            // aboutLink
+            // 
+            this.aboutLink.AutoSize = true;
+            this.aboutLink.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.aboutLink.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Underline);
+            this.aboutLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.aboutLink.Location = new System.Drawing.Point(85, 702);
+            this.aboutLink.Name = "aboutLink";
+            this.aboutLink.Size = new System.Drawing.Size(40, 15);
+            this.aboutLink.TabIndex = 30;
+            this.aboutLink.Text = "About";
+            this.aboutLink.Click += new System.EventHandler(this.aboutLink_Click);
+            // 
+            // guna2CircleButton3
+            // 
+            this.guna2CircleButton3.CheckedState.Parent = this.guna2CircleButton3;
+            this.guna2CircleButton3.CustomImages.Parent = this.guna2CircleButton3;
+            this.guna2CircleButton3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
+            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton3.HoverState.Parent = this.guna2CircleButton3;
+            this.guna2CircleButton3.Image = global::KDU_TTMS.Properties.Resources.students_50px_blue;
+            this.guna2CircleButton3.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(194, 17);
+            this.guna2CircleButton3.Name = "guna2CircleButton3";
+            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton3.ShadowDecoration.Parent = this.guna2CircleButton3;
+            this.guna2CircleButton3.Size = new System.Drawing.Size(60, 60);
+            this.guna2CircleButton3.TabIndex = 18;
+            // 
+            // guna2CircleButton4
+            // 
+            this.guna2CircleButton4.CheckedState.Parent = this.guna2CircleButton4;
+            this.guna2CircleButton4.CustomImages.Parent = this.guna2CircleButton4;
+            this.guna2CircleButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
+            this.guna2CircleButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton4.HoverState.Parent = this.guna2CircleButton4;
+            this.guna2CircleButton4.Image = global::KDU_TTMS.Properties.Resources.lecturer_50px_blue;
+            this.guna2CircleButton4.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2CircleButton4.Location = new System.Drawing.Point(192, 17);
+            this.guna2CircleButton4.Name = "guna2CircleButton4";
+            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton4.ShadowDecoration.Parent = this.guna2CircleButton4;
+            this.guna2CircleButton4.Size = new System.Drawing.Size(60, 60);
+            this.guna2CircleButton4.TabIndex = 27;
+            // 
+            // guna2CircleButton5
+            // 
+            this.guna2CircleButton5.CheckedState.Parent = this.guna2CircleButton5;
+            this.guna2CircleButton5.CustomImages.Parent = this.guna2CircleButton5;
+            this.guna2CircleButton5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
+            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton5.HoverState.Parent = this.guna2CircleButton5;
+            this.guna2CircleButton5.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_blue;
+            this.guna2CircleButton5.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2CircleButton5.Location = new System.Drawing.Point(190, 17);
+            this.guna2CircleButton5.Name = "guna2CircleButton5";
+            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton5.ShadowDecoration.Parent = this.guna2CircleButton5;
+            this.guna2CircleButton5.Size = new System.Drawing.Size(60, 60);
+            this.guna2CircleButton5.TabIndex = 28;
+            // 
+            // guna2CircleButton6
+            // 
+            this.guna2CircleButton6.CheckedState.Parent = this.guna2CircleButton6;
+            this.guna2CircleButton6.CustomImages.Parent = this.guna2CircleButton6;
+            this.guna2CircleButton6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(244)))));
+            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton6.HoverState.Parent = this.guna2CircleButton6;
+            this.guna2CircleButton6.Image = global::KDU_TTMS.Properties.Resources.modules_50px_blue;
+            this.guna2CircleButton6.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2CircleButton6.Location = new System.Drawing.Point(191, 17);
+            this.guna2CircleButton6.Name = "guna2CircleButton6";
+            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton6.ShadowDecoration.Parent = this.guna2CircleButton6;
+            this.guna2CircleButton6.Size = new System.Drawing.Size(60, 60);
+            this.guna2CircleButton6.TabIndex = 29;
+            // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
+            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageButton3.HoverState.ImageSize = new System.Drawing.Size(22, 22);
+            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Image = global::KDU_TTMS.Properties.Resources.remove_50px;
+            this.guna2ImageButton3.Location = new System.Drawing.Point(783, 15);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton3.TabIndex = 26;
+            // 
+            // guna2ImageButton2
+            // 
+            this.guna2ImageButton2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageButton2.HoverState.ImageSize = new System.Drawing.Size(22, 22);
+            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.Image = global::KDU_TTMS.Properties.Resources.add_50px;
+            this.guna2ImageButton2.Location = new System.Drawing.Point(747, 15);
+            this.guna2ImageButton2.Name = "guna2ImageButton2";
+            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
+            this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton2.TabIndex = 25;
+            // 
+            // guna2ImageButton1
+            // 
+            this.guna2ImageButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(94)))), ((int)(((byte)(105)))));
+            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2ImageButton1.HoverState.ImageSize = new System.Drawing.Size(22, 22);
+            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Image = global::KDU_TTMS.Properties.Resources.remove_50px;
+            this.guna2ImageButton1.Location = new System.Drawing.Point(212, 15);
+            this.guna2ImageButton1.Name = "guna2ImageButton1";
+            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
+            this.guna2ImageButton1.Size = new System.Drawing.Size(30, 30);
+            this.guna2ImageButton1.TabIndex = 27;
+            // 
+            // guna2CircleButton2
+            // 
+            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton2.CheckedState.Parent = this.guna2CircleButton2;
+            this.guna2CircleButton2.CustomImages.Parent = this.guna2CircleButton2;
+            this.guna2CircleButton2.FillColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
+            this.guna2CircleButton2.Image = global::KDU_TTMS.Properties.Resources.message_50px;
+            this.guna2CircleButton2.Location = new System.Drawing.Point(673, 5);
+            this.guna2CircleButton2.Name = "guna2CircleButton2";
+            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
+            this.guna2CircleButton2.Size = new System.Drawing.Size(40, 40);
+            this.guna2CircleButton2.TabIndex = 10;
+            // 
+            // guna2CircleButton1
+            // 
+            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.FillColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Image = global::KDU_TTMS.Properties.Resources.notification_50px;
+            this.guna2CircleButton1.Location = new System.Drawing.Point(731, 5);
+            this.guna2CircleButton1.Name = "guna2CircleButton1";
+            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
+            this.guna2CircleButton1.Size = new System.Drawing.Size(40, 40);
+            this.guna2CircleButton1.TabIndex = 4;
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2CirclePictureBox1.Image = global::KDU_TTMS.Properties.Resources.avatar;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(40, 40);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox1.TabIndex = 4;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.logoutBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.logoutBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.CheckedState.Image")));
+            this.logoutBtn.CheckedState.Parent = this.logoutBtn;
+            this.logoutBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.logoutBtn.CustomImages.Parent = this.logoutBtn;
+            this.logoutBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.logoutBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.logoutBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.logoutBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.logoutBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("logoutBtn.HoverState.Image")));
+            this.logoutBtn.HoverState.Parent = this.logoutBtn;
+            this.logoutBtn.Image = global::KDU_TTMS.Properties.Resources.logout_50px;
+            this.logoutBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.logoutBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.logoutBtn.Location = new System.Drawing.Point(0, 433);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.PressedDepth = 0;
+            this.logoutBtn.ShadowDecoration.Parent = this.logoutBtn;
+            this.logoutBtn.Size = new System.Drawing.Size(210, 40);
+            this.logoutBtn.TabIndex = 14;
+            this.logoutBtn.Text = "Logout";
+            this.logoutBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.logoutBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            // 
+            // profileBtn
+            // 
+            this.profileBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.profileBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.profileBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.CheckedState.Image")));
+            this.profileBtn.CheckedState.Parent = this.profileBtn;
+            this.profileBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.profileBtn.CustomImages.Parent = this.profileBtn;
+            this.profileBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.profileBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.profileBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.profileBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.profileBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.profileBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("profileBtn.HoverState.Image")));
+            this.profileBtn.HoverState.Parent = this.profileBtn;
+            this.profileBtn.Image = global::KDU_TTMS.Properties.Resources.profile_50px;
+            this.profileBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.profileBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.profileBtn.Location = new System.Drawing.Point(0, 393);
+            this.profileBtn.Name = "profileBtn";
+            this.profileBtn.PressedDepth = 0;
+            this.profileBtn.ShadowDecoration.Parent = this.profileBtn;
+            this.profileBtn.Size = new System.Drawing.Size(210, 40);
+            this.profileBtn.TabIndex = 13;
+            this.profileBtn.Text = "Profile";
+            this.profileBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.profileBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.profileBtn.Click += new System.EventHandler(this.profileBtn_Click);
+            // 
+            // lecturehallsBtn
+            // 
+            this.lecturehallsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.lecturehallsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.lecturehallsBtn.CheckedState.Image = global::KDU_TTMS.Properties.Resources.class_50px_2;
+            this.lecturehallsBtn.CheckedState.Parent = this.lecturehallsBtn;
+            this.lecturehallsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lecturehallsBtn.CustomImages.Parent = this.lecturehallsBtn;
+            this.lecturehallsBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lecturehallsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.lecturehallsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lecturehallsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.lecturehallsBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.lecturehallsBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.class_50px_2;
+            this.lecturehallsBtn.HoverState.Parent = this.lecturehallsBtn;
+            this.lecturehallsBtn.Image = global::KDU_TTMS.Properties.Resources.class_50px;
+            this.lecturehallsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lecturehallsBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.lecturehallsBtn.Location = new System.Drawing.Point(0, 353);
+            this.lecturehallsBtn.Name = "lecturehallsBtn";
+            this.lecturehallsBtn.PressedDepth = 0;
+            this.lecturehallsBtn.ShadowDecoration.Parent = this.lecturehallsBtn;
+            this.lecturehallsBtn.Size = new System.Drawing.Size(210, 40);
+            this.lecturehallsBtn.TabIndex = 12;
+            this.lecturehallsBtn.Text = "Lecture Halls";
+            this.lecturehallsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lecturehallsBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.lecturehallsBtn.Click += new System.EventHandler(this.lecturehallsBtn_Click);
+            // 
+            // assistantsBtn
+            // 
+            this.assistantsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.assistantsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.assistantsBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("assistantsBtn.CheckedState.Image")));
+            this.assistantsBtn.CheckedState.Parent = this.assistantsBtn;
+            this.assistantsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.assistantsBtn.CustomImages.Parent = this.assistantsBtn;
+            this.assistantsBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.assistantsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.assistantsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.assistantsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.assistantsBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.assistantsBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("assistantsBtn.HoverState.Image")));
+            this.assistantsBtn.HoverState.Parent = this.assistantsBtn;
+            this.assistantsBtn.Image = global::KDU_TTMS.Properties.Resources.assistant_50px;
+            this.assistantsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.assistantsBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.assistantsBtn.Location = new System.Drawing.Point(0, 313);
+            this.assistantsBtn.Name = "assistantsBtn";
+            this.assistantsBtn.PressedDepth = 0;
+            this.assistantsBtn.ShadowDecoration.Parent = this.assistantsBtn;
+            this.assistantsBtn.Size = new System.Drawing.Size(210, 40);
+            this.assistantsBtn.TabIndex = 11;
+            this.assistantsBtn.Text = "Assistants";
+            this.assistantsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.assistantsBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.assistantsBtn.Click += new System.EventHandler(this.assistantsBtn_Click);
+            // 
+            // intakesBtn
+            // 
+            this.intakesBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.intakesBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.intakesBtn.CheckedState.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_2;
+            this.intakesBtn.CheckedState.Parent = this.intakesBtn;
+            this.intakesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.intakesBtn.CustomImages.Parent = this.intakesBtn;
+            this.intakesBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.intakesBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.intakesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.intakesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.intakesBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.intakesBtn.HoverState.Image = global::KDU_TTMS.Properties.Resources.intakes_50px_2;
+            this.intakesBtn.HoverState.Parent = this.intakesBtn;
+            this.intakesBtn.Image = global::KDU_TTMS.Properties.Resources.intakes_50px;
+            this.intakesBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.intakesBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.intakesBtn.Location = new System.Drawing.Point(0, 273);
+            this.intakesBtn.Name = "intakesBtn";
+            this.intakesBtn.PressedDepth = 0;
+            this.intakesBtn.ShadowDecoration.Parent = this.intakesBtn;
+            this.intakesBtn.Size = new System.Drawing.Size(210, 40);
+            this.intakesBtn.TabIndex = 10;
+            this.intakesBtn.Text = "Intakes";
+            this.intakesBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.intakesBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.intakesBtn.Click += new System.EventHandler(this.intakesBtn_Click);
+            // 
+            // modulesBtn
+            // 
+            this.modulesBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.modulesBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.modulesBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("modulesBtn.CheckedState.Image")));
+            this.modulesBtn.CheckedState.Parent = this.modulesBtn;
+            this.modulesBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.modulesBtn.CustomImages.Parent = this.modulesBtn;
+            this.modulesBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.modulesBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.modulesBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.modulesBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.modulesBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.modulesBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("modulesBtn.HoverState.Image")));
+            this.modulesBtn.HoverState.Parent = this.modulesBtn;
+            this.modulesBtn.Image = global::KDU_TTMS.Properties.Resources.modules_50px;
+            this.modulesBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.modulesBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.modulesBtn.Location = new System.Drawing.Point(0, 233);
+            this.modulesBtn.Name = "modulesBtn";
+            this.modulesBtn.PressedDepth = 0;
+            this.modulesBtn.ShadowDecoration.Parent = this.modulesBtn;
+            this.modulesBtn.Size = new System.Drawing.Size(210, 40);
+            this.modulesBtn.TabIndex = 9;
+            this.modulesBtn.Text = "Course Modules";
+            this.modulesBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.modulesBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.modulesBtn.Click += new System.EventHandler(this.modulesBtn_Click);
+            // 
+            // lecturersBtn
+            // 
+            this.lecturersBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.lecturersBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.lecturersBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("lecturersBtn.CheckedState.Image")));
+            this.lecturersBtn.CheckedState.Parent = this.lecturersBtn;
+            this.lecturersBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lecturersBtn.CustomImages.Parent = this.lecturersBtn;
+            this.lecturersBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lecturersBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.lecturersBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lecturersBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.lecturersBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.lecturersBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("lecturersBtn.HoverState.Image")));
+            this.lecturersBtn.HoverState.Parent = this.lecturersBtn;
+            this.lecturersBtn.Image = global::KDU_TTMS.Properties.Resources.lecturer_50px;
+            this.lecturersBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lecturersBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.lecturersBtn.Location = new System.Drawing.Point(0, 193);
+            this.lecturersBtn.Name = "lecturersBtn";
+            this.lecturersBtn.PressedDepth = 0;
+            this.lecturersBtn.ShadowDecoration.Parent = this.lecturersBtn;
+            this.lecturersBtn.Size = new System.Drawing.Size(210, 40);
+            this.lecturersBtn.TabIndex = 8;
+            this.lecturersBtn.Text = "Lecturers";
+            this.lecturersBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.lecturersBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.lecturersBtn.Click += new System.EventHandler(this.lecturersBtn_Click);
+            // 
+            // studentsBtn
+            // 
+            this.studentsBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.studentsBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.studentsBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("studentsBtn.CheckedState.Image")));
+            this.studentsBtn.CheckedState.Parent = this.studentsBtn;
+            this.studentsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.studentsBtn.CustomImages.Parent = this.studentsBtn;
+            this.studentsBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.studentsBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.studentsBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.studentsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.studentsBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.studentsBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("studentsBtn.HoverState.Image")));
+            this.studentsBtn.HoverState.Parent = this.studentsBtn;
+            this.studentsBtn.Image = global::KDU_TTMS.Properties.Resources.student_50px;
+            this.studentsBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.studentsBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.studentsBtn.Location = new System.Drawing.Point(0, 153);
+            this.studentsBtn.Name = "studentsBtn";
+            this.studentsBtn.PressedDepth = 0;
+            this.studentsBtn.ShadowDecoration.Parent = this.studentsBtn;
+            this.studentsBtn.Size = new System.Drawing.Size(210, 40);
+            this.studentsBtn.TabIndex = 7;
+            this.studentsBtn.Text = "Students";
+            this.studentsBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.studentsBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.studentsBtn.Click += new System.EventHandler(this.studentsBtn_Click);
+            // 
+            // timetableBtn
+            // 
+            this.timetableBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.timetableBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.timetableBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("timetableBtn.CheckedState.Image")));
+            this.timetableBtn.CheckedState.Parent = this.timetableBtn;
+            this.timetableBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.timetableBtn.CustomImages.Parent = this.timetableBtn;
+            this.timetableBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.timetableBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.timetableBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.timetableBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.timetableBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.timetableBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("timetableBtn.HoverState.Image")));
+            this.timetableBtn.HoverState.Parent = this.timetableBtn;
+            this.timetableBtn.Image = global::KDU_TTMS.Properties.Resources.timetable_50px;
+            this.timetableBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.timetableBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.timetableBtn.Location = new System.Drawing.Point(0, 113);
+            this.timetableBtn.Name = "timetableBtn";
+            this.timetableBtn.PressedDepth = 0;
+            this.timetableBtn.ShadowDecoration.Parent = this.timetableBtn;
+            this.timetableBtn.Size = new System.Drawing.Size(210, 40);
+            this.timetableBtn.TabIndex = 6;
+            this.timetableBtn.Text = "Timetable";
+            this.timetableBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.timetableBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.timetableBtn.Click += new System.EventHandler(this.timetableBtn_Click);
+            // 
+            // dashboardBtn
+            // 
+            this.dashboardBtn.Checked = true;
+            this.dashboardBtn.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(35)))), ((int)(((byte)(213)))));
+            this.dashboardBtn.CheckedState.ForeColor = System.Drawing.Color.White;
+            this.dashboardBtn.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("dashboardBtn.CheckedState.Image")));
+            this.dashboardBtn.CheckedState.Parent = this.dashboardBtn;
+            this.dashboardBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dashboardBtn.CustomImages.Parent = this.dashboardBtn;
+            this.dashboardBtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dashboardBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.dashboardBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.dashboardBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(188)))), ((int)(((byte)(255)))));
+            this.dashboardBtn.HoverState.ForeColor = System.Drawing.Color.White;
+            this.dashboardBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("dashboardBtn.HoverState.Image")));
+            this.dashboardBtn.HoverState.Parent = this.dashboardBtn;
+            this.dashboardBtn.Image = global::KDU_TTMS.Properties.Resources.dashboard_50px;
+            this.dashboardBtn.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.dashboardBtn.ImageOffset = new System.Drawing.Point(20, 0);
+            this.dashboardBtn.Location = new System.Drawing.Point(0, 73);
+            this.dashboardBtn.Name = "dashboardBtn";
+            this.dashboardBtn.PressedDepth = 0;
+            this.dashboardBtn.ShadowDecoration.Parent = this.dashboardBtn;
+            this.dashboardBtn.Size = new System.Drawing.Size(210, 40);
+            this.dashboardBtn.TabIndex = 4;
+            this.dashboardBtn.Text = "Dashboard";
+            this.dashboardBtn.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.dashboardBtn.TextOffset = new System.Drawing.Point(40, 0);
+            this.dashboardBtn.Click += new System.EventHandler(this.dashboardBtn_Click);
+            // 
+            // guna2CircleButton7
+            // 
+            this.guna2CircleButton7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CircleButton7.CheckedState.Parent = this.guna2CircleButton7;
+            this.guna2CircleButton7.CustomImages.Parent = this.guna2CircleButton7;
+            this.guna2CircleButton7.FillColor = System.Drawing.Color.White;
+            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
+            this.guna2CircleButton7.HoverState.Parent = this.guna2CircleButton7;
+            this.guna2CircleButton7.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
+            this.guna2CircleButton7.ImageSize = new System.Drawing.Size(25, 20);
+            this.guna2CircleButton7.Location = new System.Drawing.Point(20, 5);
+            this.guna2CircleButton7.Name = "guna2CircleButton7";
+            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CircleButton7.ShadowDecoration.Parent = this.guna2CircleButton7;
+            this.guna2CircleButton7.Size = new System.Drawing.Size(40, 40);
+            this.guna2CircleButton7.TabIndex = 33;
             // 
             // Administrator_Frm
             // 
@@ -2578,13 +2619,13 @@ namespace KDU_TTMS
             this.Text = "Administrator";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.navigationPanel.ResumeLayout(false);
+            this.navigationPanel.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -2636,6 +2677,7 @@ namespace KDU_TTMS
             this.guna2Panel21.PerformLayout();
             this.guna2Panel22.ResumeLayout(false);
             this.guna2Panel22.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2811,5 +2853,8 @@ namespace KDU_TTMS
         private System.Windows.Forms.Label label105;
         private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton7;
         private System.Windows.Forms.Label kduttmslb;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.Label aboutLink;
     }
 }

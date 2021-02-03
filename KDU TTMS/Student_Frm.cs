@@ -16,6 +16,12 @@ namespace KDU_TTMS
         {
             InitializeComponent();
         }
+
+        private void aboutLink_Click(object sender, EventArgs e)
+        {
+            About aboutFrm = new About();
+            aboutFrm.ShowDialog();
+        }
         //show a panel like in the recent activity
         // number of students and distribute them into cadets and dayscholar
     }

@@ -276,5 +276,11 @@ namespace KDU_TTMS
         {
 
         }
+
+        private void aboutLink_Click(object sender, EventArgs e)
+        {
+            About aboutFrm = new About();
+            aboutFrm.ShowDialog();
+        }
     }
 }

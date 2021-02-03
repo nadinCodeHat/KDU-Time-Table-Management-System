@@ -25,3 +25,4 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.exe
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.pdb
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csprojAssemblyReference.cache
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Student_Frm.resources
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.About.resources
