@@ -143,6 +143,16 @@ namespace KDU_TTMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap export_xls_50px {
+            get {
+                object obj = ResourceManager.GetObject("export_xls_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap intakes_50px {
             get {
                 object obj = ResourceManager.GetObject("intakes_50px", resourceCulture);
@@ -316,6 +326,16 @@ namespace KDU_TTMS.Properties {
         internal static System.Drawing.Bitmap remove_50px {
             get {
                 object obj = ResourceManager.GetObject("remove_50px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_50px {
+            get {
+                object obj = ResourceManager.GetObject("search_50px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

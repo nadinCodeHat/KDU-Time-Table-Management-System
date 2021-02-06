@@ -166,6 +166,9 @@
   <data name="add_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="remove_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="class_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\class_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -174,6 +177,9 @@
   </data>
   <data name="modules_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\modules_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_xls_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_xls_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="intakes_50px_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\intakes_50px_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +220,7 @@
   <data name="profile_50px_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\profile_50px_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="remove_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\remove_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="search_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
