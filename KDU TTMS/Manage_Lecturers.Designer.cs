@@ -1,7 +1,7 @@
 ﻿
 namespace KDU_TTMS
 {
-    partial class Manage_Students
+    partial class Manage_Lecturers
     {
         /// <summary>
         /// Required designer variable.
@@ -31,11 +31,11 @@ namespace KDU_TTMS
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.student_info_table = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label22 = new System.Windows.Forms.Label();
             this.search_textbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.exportBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.label22 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.student_info_table)).BeginInit();
             this.SuspendLayout();
@@ -50,11 +50,11 @@ namespace KDU_TTMS
             this.guna2Panel1.Controls.Add(this.label22);
             this.guna2Panel1.FillColor = System.Drawing.Color.White;
             this.guna2Panel1.Font = new System.Drawing.Font("Symbol", 8.25F);
-            this.guna2Panel1.Location = new System.Drawing.Point(23, 23);
+            this.guna2Panel1.Location = new System.Drawing.Point(24, 24);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1108, 669);
-            this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.TabIndex = 1;
             // 
             // student_info_table
             // 
@@ -63,32 +63,6 @@ namespace KDU_TTMS
             this.student_info_table.Name = "student_info_table";
             this.student_info_table.Size = new System.Drawing.Size(1020, 584);
             this.student_info_table.TabIndex = 107;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(863, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 30);
-            this.button1.TabIndex = 105;
-            this.button1.Text = "Refresh";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
-            this.label22.Location = new System.Drawing.Point(28, 21);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(75, 21);
-            this.label22.TabIndex = 18;
-            this.label22.Text = "Students";
             // 
             // search_textbox
             // 
@@ -113,6 +87,20 @@ namespace KDU_TTMS
             this.search_textbox.Size = new System.Drawing.Size(251, 30);
             this.search_textbox.TabIndex = 106;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(863, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 30);
+            this.button1.TabIndex = 105;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // exportBtn
             // 
             this.exportBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(210)))), ((int)(((byte)(158)))));
@@ -126,7 +114,6 @@ namespace KDU_TTMS
             this.exportBtn.PressedState.Parent = this.exportBtn;
             this.exportBtn.Size = new System.Drawing.Size(30, 30);
             this.exportBtn.TabIndex = 27;
-            this.exportBtn.Click += new System.EventHandler(this.exportBtn_Click);
             // 
             // guna2ImageButton2
             // 
@@ -142,7 +129,19 @@ namespace KDU_TTMS
             this.guna2ImageButton2.Size = new System.Drawing.Size(30, 30);
             this.guna2ImageButton2.TabIndex = 26;
             // 
-            // Manage_Students
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
+            this.label22.Location = new System.Drawing.Point(28, 21);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(78, 21);
+            this.label22.TabIndex = 18;
+            this.label22.Text = "Lecturers";
+            // 
+            // Manage_Lecturers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -150,10 +149,9 @@ namespace KDU_TTMS
             this.ClientSize = new System.Drawing.Size(1156, 717);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Manage_Students";
+            this.Name = "Manage_Lecturers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Manage_Students";
-            this.Load += new System.EventHandler(this.Manage_Students_Load);
+            this.Text = "Manage_Lecturers";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.student_info_table)).EndInit();
@@ -164,11 +162,11 @@ namespace KDU_TTMS
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.DataGridView student_info_table;
+        private Guna.UI2.WinForms.Guna2TextBox search_textbox;
+        private System.Windows.Forms.Button button1;
         private Guna.UI2.WinForms.Guna2ImageButton exportBtn;
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
-        private System.Windows.Forms.Button button1;
-        private Guna.UI2.WinForms.Guna2TextBox search_textbox;
-        private System.Windows.Forms.DataGridView student_info_table;
+        private System.Windows.Forms.Label label22;
     }
 }

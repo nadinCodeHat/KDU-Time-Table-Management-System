@@ -58,6 +58,12 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administrator_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator_Dashboard.Designer.cs">
+      <DependentUpon>Administrator_Dashboard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administrator_Frm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Login_Frm.Designer.cs">
       <DependentUpon>Login_Frm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Lecturers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Lecturers.Designer.cs">
+      <DependentUpon>Manage_Lecturers.cs</DependentUpon>
     </Compile>
     <Compile Include="Manage_Students.cs">
       <SubType>Form</SubType>
@@ -104,11 +116,17 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Administrator_Dashboard.resx">
+      <DependentUpon>Administrator_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Administrator_Frm.resx">
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Frm.resx">
       <DependentUpon>Login_Frm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Lecturers.resx">
+      <DependentUpon>Manage_Lecturers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manage_Students.resx">
       <DependentUpon>Manage_Students.cs</DependentUpon>

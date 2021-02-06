@@ -120,7 +120,6 @@ namespace KDU_TTMS
             this.passwordTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.passwordTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(81)))), ((int)(((byte)(228)))));
             this.passwordTxt.HoverState.Parent = this.passwordTxt;
-            this.passwordTxt.IconRight = global::KDU_TTMS.Properties.Resources.toggle_on_30px;
             this.passwordTxt.IconRightCursor = System.Windows.Forms.Cursors.Hand;
             this.passwordTxt.IconRightSize = new System.Drawing.Size(30, 30);
             this.passwordTxt.Location = new System.Drawing.Point(72, 267);
@@ -216,7 +215,6 @@ namespace KDU_TTMS
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
             this.pictureBox1.Location = new System.Drawing.Point(72, 48);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(53, 50);
