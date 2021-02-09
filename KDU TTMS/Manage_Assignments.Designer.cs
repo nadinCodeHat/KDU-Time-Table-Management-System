@@ -1,7 +1,7 @@
 ﻿
 namespace KDU_TTMS
 {
-    partial class Manage_Lecturers
+    partial class Manage_Assignments
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@ namespace KDU_TTMS
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1108, 669);
-            this.guna2Panel1.TabIndex = 1;
+            this.guna2Panel1.TabIndex = 2;
             // 
             // student_info_table
             // 
@@ -137,11 +137,11 @@ namespace KDU_TTMS
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
             this.label22.Location = new System.Drawing.Point(28, 21);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(78, 21);
+            this.label22.Size = new System.Drawing.Size(82, 21);
             this.label22.TabIndex = 18;
-            this.label22.Text = "Lecturers";
+            this.label22.Text = "Assistants";
             // 
-            // Manage_Lecturers
+            // Manage_Assignments
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,9 +149,9 @@ namespace KDU_TTMS
             this.ClientSize = new System.Drawing.Size(1156, 717);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Manage_Lecturers";
+            this.Name = "Manage_Assignments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Manage_Lecturers";
+            this.Text = "Manage_Assignments";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.student_info_table)).EndInit();
