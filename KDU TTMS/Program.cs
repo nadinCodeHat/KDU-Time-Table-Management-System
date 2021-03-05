@@ -16,7 +16,7 @@ namespace KDU_TTMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Manage_Students());
+            Application.Run(new Add_Student());
         }
     }
 }
