@@ -99,12 +99,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Register_Frm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Register_Frm.Designer.cs">
-      <DependentUpon>Register_Frm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Splash_Screen.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -25,13 +25,12 @@ namespace KDU_TTMS
 
         private void LoadStudents()
         {
-            student_info_table.Columns.Clear();
-            student_info_table.DataSource = null;
-            student_info_table.Rows.Clear();
-            student_info_table.Refresh();
+            //student_info_table.Columns.Clear();
+            //student_info_table.DataSource = null;
+            //student_info_table.Rows.Clear();
+            //student_info_table.Refresh();
 
-            
-
+           
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = conn.CreateCommand();
@@ -42,24 +41,24 @@ namespace KDU_TTMS
                 {
                     DataTable dt = new DataTable();
                     sda.Fill(dt);
-                    student_info_table.DataSource = dt;
+                    //student_info_table.DataSource = dt;
                 }
             }
-            student_info_table.Columns[0].Name = "registration_no";
-            student_info_table.Columns[1].Name = "student_name";
-            student_info_table.Columns[2].Name = "course_stream";
-            student_info_table.Columns[3].Name = "email";
-            student_info_table.Columns[4].Name = "mobile_no";
-            student_info_table.Columns[5].Name = "d_or_c";
-            student_info_table.Columns[6].Name = "intake";
+            //student_info_table.Columns[0].Name = "registration_no";
+            //student_info_table.Columns[1].Name = "student_name";
+            //student_info_table.Columns[2].Name = "course_stream";
+            //student_info_table.Columns[3].Name = "email";
+            //student_info_table.Columns[4].Name = "mobile_no";
+            //student_info_table.Columns[5].Name = "d_or_c";
+            //student_info_table.Columns[6].Name = "intake";
 
-            student_info_table.Columns[0].HeaderText = "Reg. Number";
-            student_info_table.Columns[1].HeaderText = "Name";
-            student_info_table.Columns[2].HeaderText = "Course Stream";
-            student_info_table.Columns[3].HeaderText = "Email";
-            student_info_table.Columns[4].HeaderText = "Mobile No.";
-            student_info_table.Columns[5].HeaderText = "Day Scholar/Cadet";
-            student_info_table.Columns[6].HeaderText = "Intake";
+            //student_info_table.Columns[0].HeaderText = "Reg. Number";
+            //student_info_table.Columns[1].HeaderText = "Name";
+            //student_info_table.Columns[2].HeaderText = "Course Stream";
+            //student_info_table.Columns[3].HeaderText = "Email";
+            //student_info_table.Columns[4].HeaderText = "Mobile No.";
+            //student_info_table.Columns[5].HeaderText = "Day Scholar/Cadet";
+            //student_info_table.Columns[6].HeaderText = "Intake";
 
             DataGridViewImageColumn viewBtn = new DataGridViewImageColumn();
             DataGridViewImageColumn deleteBtn = new DataGridViewImageColumn();
@@ -67,55 +66,55 @@ namespace KDU_TTMS
             viewBtn.HeaderText = "View";
             //viewBtn.Image = Resources.edit_btn;
             viewBtn.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            student_info_table.Columns.Insert(6, viewBtn);
+            //student_info_table.Columns.Insert(6, viewBtn);
 
             deleteBtn.Name = "delete_btn";
             deleteBtn.HeaderText = "Delete";
            // deleteBtn.Image = Resources.delete;
             deleteBtn.ImageLayout = DataGridViewImageCellLayout.Zoom;
-            student_info_table.Columns.Insert(7, deleteBtn);
+            //student_info_table.Columns.Insert(7, deleteBtn);
 
 
             //Set Column Width
             for (int i = 0; i <= 8; i++)
             {
-                DataGridViewColumn tt_id_col = student_info_table.Columns[i];
-                if (i == 0)
-                {
-                    tt_id_col.Width = 150;
-                }
-                else if (i == 1)
-                {
-                    tt_id_col.Width = 220;
-                }
-                else if (i == 2)
-                {
-                    tt_id_col.Width = 200;
-                }
-                else if (i == 3)
-                {
-                    tt_id_col.Width = 180;
-                }
-                else if (i == 4)
-                {
-                    tt_id_col.Width = 100;
-                }
-                else if (i == 5)
-                {
-                    tt_id_col.Width = 80;
-                }
-                else if (i == 6)
-                {
-                    tt_id_col.Width = 50;
-                }
-                else if (i == 7)
-                {
-                    tt_id_col.Width = 50;
-                }
-                else if (i == 8)
-                {
-                    tt_id_col.Width = 50;
-                }
+                //DataGridViewColumn tt_id_col = student_info_table.Columns[i];
+                //if (i == 0)
+                //{
+                //    tt_id_col.Width = 150;
+                //}
+                //else if (i == 1)
+                //{
+                //    tt_id_col.Width = 220;
+                //}
+                //else if (i == 2)
+                //{
+                //    tt_id_col.Width = 200;
+                //}
+                //else if (i == 3)
+                //{
+                //    tt_id_col.Width = 180;
+                //}
+                //else if (i == 4)
+                //{
+                //    tt_id_col.Width = 100;
+                //}
+                //else if (i == 5)
+                //{
+                //    tt_id_col.Width = 80;
+                //}
+                //else if (i == 6)
+                //{
+                //    tt_id_col.Width = 50;
+                //}
+                //else if (i == 7)
+                //{
+                //    tt_id_col.Width = 50;
+                //}
+                //else if (i == 8)
+                //{
+                //    tt_id_col.Width = 50;
+                //}
             }
         }
 
@@ -163,7 +162,7 @@ namespace KDU_TTMS
             {
                 //ToCsV(dataGridView1, @"c:\export.xls");
 
-                ToCsV(student_info_table, sfd.FileName); // Here dataGridview1 is your grid view name
+               // ToCsV(student_info_table, sfd.FileName); // Here dataGridview1 is your grid view name
             }
         }
     }

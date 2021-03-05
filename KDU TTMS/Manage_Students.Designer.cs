@@ -30,9 +30,9 @@ namespace KDU_TTMS
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.student_info_table = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
+            this.student_info_table = new System.Windows.Forms.DataGridView();
             this.search_textbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.exportBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -55,14 +55,6 @@ namespace KDU_TTMS
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(1108, 669);
             this.guna2Panel1.TabIndex = 0;
-            // 
-            // student_info_table
-            // 
-            this.student_info_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.student_info_table.Location = new System.Drawing.Point(32, 65);
-            this.student_info_table.Name = "student_info_table";
-            this.student_info_table.Size = new System.Drawing.Size(1020, 584);
-            this.student_info_table.TabIndex = 107;
             // 
             // button1
             // 
@@ -89,6 +81,14 @@ namespace KDU_TTMS
             this.label22.Size = new System.Drawing.Size(75, 21);
             this.label22.TabIndex = 18;
             this.label22.Text = "Students";
+            // 
+            // student_info_table
+            // 
+            this.student_info_table.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.student_info_table.Location = new System.Drawing.Point(32, 57);
+            this.student_info_table.Name = "student_info_table";
+            this.student_info_table.Size = new System.Drawing.Size(1020, 586);
+            this.student_info_table.TabIndex = 107;
             // 
             // search_textbox
             // 

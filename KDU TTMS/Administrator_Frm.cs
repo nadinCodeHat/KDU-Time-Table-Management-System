@@ -78,15 +78,15 @@ namespace KDU_TTMS
 
         //Call Open Students Form
         private Form activeFormStudent = null;
-        private void openStudentForm(Form student_frm)
+        private void openStudentForm(Form manage_student_frm)
         {
             if (activeFormStudent != null) activeFormStudent.Dispose();
-            activeFormStudent = student_frm;
-            student_frm.TopLevel = false;
-            student_frm.FormBorderStyle = FormBorderStyle.None;
-            student_frm.Dock = DockStyle.Fill;
-            student_frm.BringToFront();
-            student_frm.Show();
+            activeFormStudent = manage_student_frm;
+            manage_student_frm.TopLevel = false;
+            manage_student_frm.FormBorderStyle = FormBorderStyle.None;
+            manage_student_frm.Dock = DockStyle.Fill;
+            manage_student_frm.BringToFront();
+            manage_student_frm.Show();
         }
 
         private void studentsBtn_Click(object sender, EventArgs e)
@@ -101,7 +101,7 @@ namespace KDU_TTMS
             lecturehallsBtn.Checked = false;
             profileBtn.Checked = false;
             //Show Students
-            //openStudentForm(new Students_Frm());
+            openStudentForm(new Manage_Students());
         }
 
         //Call Open Lecturers Form

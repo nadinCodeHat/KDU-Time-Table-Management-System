@@ -98,27 +98,30 @@ namespace KDU_TTMS
                 createMsg("Please enter your password!");
             else
             {
-                SqlConnection con = new SqlConnection(connectionString);
-                con.Open();
-                string loginQuery = "SELECT email,password,usertype from login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
-                SqlCommand cmd = new SqlCommand(loginQuery, con);
-                SqlDataReader dr = cmd.ExecuteReader();
-                while (dr.Read())
+                using (SqlConnection con = new SqlConnection(connectionString))
                 {
-                    if (dr.HasRows)
+                    try
                     {
-                        if (dr.GetString(2) == "Student")
+                        string loginQuery = "SELECT email,password,usertype from login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
+                        SqlCommand cmd = new SqlCommand(loginQuery, con);
+                        SqlDataReader dr = cmd.ExecuteReader();
+                        while (dr.Read())
                         {
-                            MessageBox.Show("Hello");
+                            if (dr.HasRows)
+                            {
+                                if (dr.GetString(2) == "Student")
+                                {
+                                    MessageBox.Show("Hello");
+                                }
+                            }
                         }
                     }
-                }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show(ex.ToString());
+                    }
+                } 
             }
-        }
-
-        private void picture_bgrnd_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
