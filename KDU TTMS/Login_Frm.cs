@@ -44,7 +44,7 @@ namespace KDU_TTMS
         }
 
         //Check whether fields are empty
-        public Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
+        private Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
         {
             if (string.IsNullOrEmpty(txt.Text))
             {
@@ -83,7 +83,7 @@ namespace KDU_TTMS
         }
 
         //Create message
-        public void createMsg(String txt)
+        private void createMsg(String txt)
         {
             msgTxt.Text = txt;
             msgTxt.Visible = true;
