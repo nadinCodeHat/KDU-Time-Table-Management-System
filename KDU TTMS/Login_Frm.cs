@@ -54,8 +54,8 @@ namespace KDU_TTMS
             }
             else
             {
-                txt.BorderColor = Color.MediumSeaGreen;
-                txt.FocusedState.BorderColor = Color.MediumSeaGreen;
+                txt.BorderColor = Color.Green;
+                txt.FocusedState.BorderColor = Color.Green;
                 return false;
             }
         }
@@ -63,7 +63,7 @@ namespace KDU_TTMS
         //When emailTxt changes
         private void emailTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
             if (msgTxt.Visible == true)
                 msgTxt.Visible = false;
         }
@@ -92,29 +92,36 @@ namespace KDU_TTMS
         //Login Button is Clicked
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMsg("Please enter your email!");
-            if (isEmpty(passwordTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(passwordTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMsg("Please enter your password!");
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true && isEmpty(passwordTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
+                createMsg("Please enter your email and password!");
             else
             {
                 using (SqlConnection con = new SqlConnection(connectionString))
                 {
+                    con.Open();
                     try
                     {
                         string loginQuery = "SELECT email,password,usertype from login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
-                        SqlCommand cmd = new SqlCommand(loginQuery, con);
-                        SqlDataReader dr = cmd.ExecuteReader();
-                        while (dr.Read())
+                        using (SqlCommand cmd = new SqlCommand(loginQuery, con))
                         {
-                            if (dr.HasRows)
+                            using (SqlDataReader dr = cmd.ExecuteReader())
                             {
-                                if (dr.GetString(2) == "Student")
+                                while (dr.Read())
                                 {
-                                    MessageBox.Show("Hello");
+                                    if (dr.HasRows)
+                                    {
+                                        if (dr.GetString(2) == "Student")
+                                        {
+                                            MessageBox.Show("Hello");
+                                        }
+                                    }
                                 }
-                            }
-                        }
+                            } 
+                        }                           
                     }
                     catch(Exception ex)
                     {

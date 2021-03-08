@@ -250,7 +250,8 @@ namespace KDU_TTMS
             this.degProgCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.degProgCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.degProgCombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.degProgCombo.FocusedColor = System.Drawing.Color.Empty;
+            this.degProgCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.degProgCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.degProgCombo.FocusedState.Parent = this.degProgCombo;
             this.degProgCombo.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.degProgCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
@@ -280,7 +281,8 @@ namespace KDU_TTMS
             this.intakeCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.intakeCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.intakeCombo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.intakeCombo.FocusedColor = System.Drawing.Color.Empty;
+            this.intakeCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.intakeCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.intakeCombo.FocusedState.Parent = this.intakeCombo;
             this.intakeCombo.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.intakeCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
@@ -338,9 +340,9 @@ namespace KDU_TTMS
             // 
             this.dayScholarRadioButton.AutoSize = true;
             this.dayScholarRadioButton.Checked = true;
-            this.dayScholarRadioButton.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dayScholarRadioButton.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.dayScholarRadioButton.CheckedState.BorderThickness = 0;
-            this.dayScholarRadioButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.dayScholarRadioButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.dayScholarRadioButton.CheckedState.InnerColor = System.Drawing.Color.White;
             this.dayScholarRadioButton.CheckedState.InnerOffset = -4;
             this.dayScholarRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -361,9 +363,9 @@ namespace KDU_TTMS
             // cadetRadioButton
             // 
             this.cadetRadioButton.AutoSize = true;
-            this.cadetRadioButton.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cadetRadioButton.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.cadetRadioButton.CheckedState.BorderThickness = 0;
-            this.cadetRadioButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cadetRadioButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
             this.cadetRadioButton.CheckedState.InnerColor = System.Drawing.Color.White;
             this.cadetRadioButton.CheckedState.InnerOffset = -4;
             this.cadetRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
