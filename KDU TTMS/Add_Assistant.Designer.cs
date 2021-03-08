@@ -44,7 +44,7 @@ namespace KDU_TTMS
             this.regNoTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.enableAdminCheckBox = new Guna.UI2.WinForms.Guna2CheckBox();
             this.msgPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +53,7 @@ namespace KDU_TTMS
             this.msgPanel.BackColor = System.Drawing.Color.Green;
             this.msgPanel.Controls.Add(this.msgLabel);
             this.msgPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.msgPanel.Location = new System.Drawing.Point(0, 596);
+            this.msgPanel.Location = new System.Drawing.Point(0, 521);
             this.msgPanel.Name = "msgPanel";
             this.msgPanel.Size = new System.Drawing.Size(374, 30);
             this.msgPanel.TabIndex = 48;
@@ -87,7 +87,7 @@ namespace KDU_TTMS
             this.addBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.addBtn.ForeColor = System.Drawing.Color.White;
             this.addBtn.HoverState.Parent = this.addBtn;
-            this.addBtn.Location = new System.Drawing.Point(203, 542);
+            this.addBtn.Location = new System.Drawing.Point(203, 467);
             this.addBtn.Name = "addBtn";
             this.addBtn.ShadowDecoration.Parent = this.addBtn;
             this.addBtn.Size = new System.Drawing.Size(146, 40);
@@ -273,33 +273,33 @@ namespace KDU_TTMS
             // 
             this.timer1.Interval = 3000;
             // 
-            // guna2CheckBox1
+            // enableAdminCheckBox
             // 
-            this.guna2CheckBox1.AutoSize = true;
-            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 2;
-            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2CheckBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CheckBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
-            this.guna2CheckBox1.Location = new System.Drawing.Point(31, 421);
-            this.guna2CheckBox1.Name = "guna2CheckBox1";
-            this.guna2CheckBox1.Size = new System.Drawing.Size(201, 19);
-            this.guna2CheckBox1.TabIndex = 49;
-            this.guna2CheckBox1.Text = "Enable Administrative Priviledges";
-            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 2;
-            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
-            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2CheckBox1.UseVisualStyleBackColor = true;
+            this.enableAdminCheckBox.AutoSize = true;
+            this.enableAdminCheckBox.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.enableAdminCheckBox.CheckedState.BorderRadius = 6;
+            this.enableAdminCheckBox.CheckedState.BorderThickness = 0;
+            this.enableAdminCheckBox.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.enableAdminCheckBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.enableAdminCheckBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(48)))), ((int)(((byte)(83)))));
+            this.enableAdminCheckBox.Location = new System.Drawing.Point(31, 421);
+            this.enableAdminCheckBox.Name = "enableAdminCheckBox";
+            this.enableAdminCheckBox.Size = new System.Drawing.Size(201, 19);
+            this.enableAdminCheckBox.TabIndex = 49;
+            this.enableAdminCheckBox.Text = "Enable Administrative Priviledges";
+            this.enableAdminCheckBox.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.enableAdminCheckBox.UncheckedState.BorderRadius = 6;
+            this.enableAdminCheckBox.UncheckedState.BorderThickness = 0;
+            this.enableAdminCheckBox.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.enableAdminCheckBox.UseVisualStyleBackColor = true;
             // 
             // Add_Assistant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(374, 626);
-            this.Controls.Add(this.guna2CheckBox1);
+            this.ClientSize = new System.Drawing.Size(374, 551);
+            this.Controls.Add(this.enableAdminCheckBox);
             this.Controls.Add(this.msgPanel);
             this.Controls.Add(this.guna2Separator1);
             this.Controls.Add(this.addBtn);
@@ -337,6 +337,6 @@ namespace KDU_TTMS
         private Guna.UI2.WinForms.Guna2TextBox regNoTxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
-        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2CheckBox enableAdminCheckBox;
     }
 }
