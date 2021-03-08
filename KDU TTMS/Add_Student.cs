@@ -26,7 +26,27 @@ namespace KDU_TTMS
         private void Add_Student_Load(object sender, EventArgs e)
         {
         }
-       
+        
+        private void regNoTxt_TextChanged(object sender, EventArgs e)
+        {
+            isEmpty(regNoTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+        }
+
+        private void nameTxt_TextChanged(object sender, EventArgs e)
+        {
+            isEmpty(nameTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+        }
+
+        private void emailTxt_TextChanged(object sender, EventArgs e)
+        {
+            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+        }
+
+        private void mobileTxt_TextChanged(object sender, EventArgs e)
+        {
+            isEmpty(mobileTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+        }
+
         private Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
         {
             if (string.IsNullOrEmpty(txt.Text))
@@ -45,79 +65,92 @@ namespace KDU_TTMS
 
         private void createMessage(string msg, Color bckGrndColor)
         {
-            Panel pnl = new Panel();
-            pnl.Dock = DockStyle.Bottom;
-            pnl.Size = new Size(374, 30);
-            pnl.BackColor = bckGrndColor;
 
-            Label msgLb= new Label();
-            msgLb.Text = msg;
-            msgLb.Font = new Font("Segoe UI", 9);
-            msgLb.ForeColor = Color.White;
-            msgLb.Anchor = AnchorStyles.Left;
-            msgLb.Anchor = AnchorStyles.Right;
-            msgLb.AutoSize = false;
-            msgLb.TextAlign = ContentAlignment.MiddleCenter;
-
-            int x = (pnl.Size.Width - msgLb.Size.Width) / 2;
-            msgLb.Location = new Point(x, msgLb.Location.Y);
-
-            Controls.Add(pnl);
-            pnl.Controls.Add(msgLb);
+            msgPanel.BackColor = bckGrndColor;
+            msgPanel.Visible = true;
+            msgLabel.Text = msg;
+            timer1.Start();
         }
         
         //Add new Student
         private void addBtn_Click(object sender, EventArgs e)
         {
-            string degreeProgramme = degProgCombo.SelectedItem.ToString();
-            string intake = intakeCombo.SelectedItem.ToString();
-            try
+            if (isEmpty(regNoTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMessage("Incomplete Fields!", Color.Red);
+            if (isEmpty(nameTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMessage("Incomplete Fields!", Color.Red);
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMessage("Incomplete Fields!", Color.Red);
+            if (isEmpty(mobileTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+                createMessage("Incomplete Fields!", Color.Red);
+            else
             {
-                using (SqlConnection con = new SqlConnection(connectionString))
+                string degreeProgramme = degProgCombo.SelectedItem.ToString();
+                string intake = intakeCombo.SelectedItem.ToString();
+                try
                 {
-                    int degProgID;
-                    int intakeID;
-                    con.Open();
-                    string selectdegProgQuery = "SELECT id FROM degree_programme_info where degree_programme = '" + degreeProgramme + "'";
-                    using (SqlCommand cmd = new SqlCommand(selectdegProgQuery, con))
+                    using (SqlConnection con = new SqlConnection(connectionString))
                     {
-                        degProgID = Convert.ToInt32(cmd.ExecuteScalar());
-                    }
-
-                    string selectIntakeQuery = "SELECT id FROM Intakes where intake = '" + intake+"'";
-                    using (SqlCommand cmd = new SqlCommand(selectIntakeQuery, con))
-                    {
-                        intakeID = Convert.ToInt32(cmd.ExecuteScalar());
-                    }
-
-                    string insertQuery = "INSERT INTO Student_info(reg_no,name,email,mobile,degree_programme_id,d_or_c,intake_id) values (@reg_no,@name,@email,@mobile,@degree_programme_id,@d_or_c,@intake_id)";
-                    using(SqlCommand cmd = new SqlCommand(insertQuery, con))
-                    {
-                        cmd.Parameters.AddWithValue("@reg_no", regNoTxt.Text.ToString());
-                        cmd.Parameters.AddWithValue("@name", nameTxt.Text.ToString());
-                        cmd.Parameters.AddWithValue("@email", emailTxt.Text.ToString());
-                        cmd.Parameters.AddWithValue("@mobile", mobileTxt.Text.ToString());
-                        cmd.Parameters.AddWithValue("@degree_programme_id", degProgID);
-                        string dayScholarOrCadet;
-                        if (dayScholarRadioButton.Checked == true)
+                        int degProgID;
+                        int intakeID;
+                        con.Open();
+                        string selectdegProgQuery = "SELECT id FROM degree_programme_info where degree_programme = '" + degreeProgramme + "'";
+                        using (SqlCommand cmd = new SqlCommand(selectdegProgQuery, con))
                         {
-                            dayScholarOrCadet = "Day Scholar";
+                            degProgID = Convert.ToInt32(cmd.ExecuteScalar());
                         }
-                        else
+
+                        string selectIntakeQuery = "SELECT id FROM Intakes where intake = '" + intake + "'";
+                        using (SqlCommand cmd = new SqlCommand(selectIntakeQuery, con))
                         {
-                            dayScholarOrCadet = "Cadet";
+                            intakeID = Convert.ToInt32(cmd.ExecuteScalar());
                         }
-                        cmd.Parameters.AddWithValue("@d_or_c", dayScholarOrCadet);
-                        cmd.Parameters.AddWithValue("@intake_id", intakeID);
-                        cmd.ExecuteNonQuery();  
+
+                        string insertQuery = "INSERT INTO Student_info(reg_no,name,email,mobile,degree_programme_id,d_or_c,intake_id) values (@reg_no,@name,@email,@mobile,@degree_programme_id,@d_or_c,@intake_id)";
+                        using (SqlCommand cmd = new SqlCommand(insertQuery, con))
+                        {
+                            cmd.Parameters.AddWithValue("@reg_no", regNoTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@name", nameTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@email", emailTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@mobile", mobileTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@degree_programme_id", degProgID);
+                            string dayScholarOrCadet;
+                            if (dayScholarRadioButton.Checked == true)
+                            {
+                                dayScholarOrCadet = "Day Scholar";
+                            }
+                            else
+                            {
+                                dayScholarOrCadet = "Cadet";
+                            }
+                            cmd.Parameters.AddWithValue("@d_or_c", dayScholarOrCadet);
+                            cmd.Parameters.AddWithValue("@intake_id", intakeID);
+                            cmd.ExecuteNonQuery();
+                        }
                     }
                 }
-            }catch(SqlException ex)
-            {
-                string msg = "Insert Error:";
-                msg += ex.Message;
+                catch (SqlException ex)
+                {
+                    string msg = "Insert Error:";   
+                    msg += ex.Message;
+                }
+                finally
+                {
+                    createMessage("Inserted Suceesfully!", Color.MediumSeaGreen);
+                }
             }
-            
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            msgPanel.Visible = false;
+        }
+
+        //lose control on MouseDown
+        private void Add_Student_MouseDown(object sender, MouseEventArgs e)
+        {
+            ActiveControl = null;
         }
     }
 }
