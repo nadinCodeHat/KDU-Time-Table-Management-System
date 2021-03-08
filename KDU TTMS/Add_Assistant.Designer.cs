@@ -93,6 +93,7 @@ namespace KDU_TTMS
             this.addBtn.Size = new System.Drawing.Size(146, 40);
             this.addBtn.TabIndex = 44;
             this.addBtn.Text = "ADD";
+            this.addBtn.Click += new System.EventHandler(this.addBtn_Click);
             // 
             // mobileTxt
             // 
@@ -123,6 +124,7 @@ namespace KDU_TTMS
             this.mobileTxt.Size = new System.Drawing.Size(318, 36);
             this.mobileTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.mobileTxt.TabIndex = 39;
+            this.mobileTxt.TextChanged += new System.EventHandler(this.mobileTxt_TextChanged);
             // 
             // label5
             // 
@@ -164,6 +166,7 @@ namespace KDU_TTMS
             this.emailTxt.Size = new System.Drawing.Size(318, 36);
             this.emailTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.emailTxt.TabIndex = 37;
+            this.emailTxt.TextChanged += new System.EventHandler(this.emailTxt_TextChanged);
             // 
             // label4
             // 
@@ -205,6 +208,7 @@ namespace KDU_TTMS
             this.nameTxt.Size = new System.Drawing.Size(318, 36);
             this.nameTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.nameTxt.TabIndex = 35;
+            this.nameTxt.TextChanged += new System.EventHandler(this.nameTxt_TextChanged);
             // 
             // label3
             // 
@@ -257,6 +261,7 @@ namespace KDU_TTMS
             this.regNoTxt.Size = new System.Drawing.Size(318, 36);
             this.regNoTxt.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.regNoTxt.TabIndex = 32;
+            this.regNoTxt.TextChanged += new System.EventHandler(this.regNoTxt_TextChanged);
             // 
             // label1
             // 
@@ -315,6 +320,7 @@ namespace KDU_TTMS
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "Add_Assistant";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Add_Student_MouseDown);
             this.msgPanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
