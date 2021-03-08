@@ -29,22 +29,22 @@ namespace KDU_TTMS
         
         private void regNoTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(regNoTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(regNoTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
         }
 
         private void nameTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(nameTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(nameTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
         }
 
         private void emailTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
         }
 
         private void mobileTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(mobileTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(mobileTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
         }
 
         private Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
@@ -57,8 +57,8 @@ namespace KDU_TTMS
             }
             else
             {
-                txt.BorderColor = Color.MediumSeaGreen;
-                txt.FocusedState.BorderColor = Color.MediumSeaGreen;
+                txt.BorderColor = Color.Green;
+                txt.FocusedState.BorderColor = Color.Green;
                 return false;
             }
         }
@@ -74,13 +74,13 @@ namespace KDU_TTMS
         //Add new Student
         private void addBtn_Click(object sender, EventArgs e)
         {
-            if (isEmpty(regNoTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(regNoTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMessage("Incomplete Fields!", Color.Red);
-            if (isEmpty(nameTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(nameTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMessage("Incomplete Fields!", Color.Red);
-            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMessage("Incomplete Fields!", Color.Red);
-            if (isEmpty(mobileTxt, Color.Red, Color.FromArgb(55, 81, 228)) == true)
+            if (isEmpty(mobileTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
                 createMessage("Incomplete Fields!", Color.Red);
             else
             {
