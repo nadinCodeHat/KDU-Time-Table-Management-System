@@ -65,7 +65,6 @@ namespace KDU_TTMS
 
         private void createMessage(string msg, Color bckGrndColor)
         {
-
             msgPanel.BackColor = bckGrndColor;
             msgPanel.Visible = true;
             msgLabel.Text = msg;
@@ -136,7 +135,7 @@ namespace KDU_TTMS
                 }
                 finally
                 {
-                    createMessage("Inserted Suceesfully!", Color.MediumSeaGreen);
+                    createMessage("Inserted Suceesfully!", Color.Green);
                 }
             }
         }

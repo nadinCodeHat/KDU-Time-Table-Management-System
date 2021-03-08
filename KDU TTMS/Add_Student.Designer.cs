@@ -382,7 +382,7 @@ namespace KDU_TTMS
             // 
             // msgPanel
             // 
-            this.msgPanel.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.msgPanel.BackColor = System.Drawing.Color.Green;
             this.msgPanel.Controls.Add(this.msgLabel);
             this.msgPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.msgPanel.Location = new System.Drawing.Point(0, 596);
@@ -399,7 +399,6 @@ namespace KDU_TTMS
             this.msgLabel.Name = "msgLabel";
             this.msgLabel.Size = new System.Drawing.Size(368, 15);
             this.msgLabel.TabIndex = 0;
-            this.msgLabel.Text = "Inserted Sucessfully!";
             this.msgLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // timer1
