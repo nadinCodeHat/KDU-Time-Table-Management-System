@@ -16,7 +16,7 @@ namespace KDU_TTMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Add_Assistant());
+            Application.Run(new Login_Frm());
         }
     }
 }

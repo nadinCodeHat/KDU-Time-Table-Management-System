@@ -32,3 +32,4 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Manage_Assig
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Manage_Lecturers.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Student.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Assistant.resources
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Lecturer.resources
