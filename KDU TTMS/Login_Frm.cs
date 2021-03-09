@@ -114,6 +114,7 @@ namespace KDU_TTMS
                             {
                                 if (sdr.Read())
                                 {
+                                    //Fetch password
                                     password = sdr.GetString(2);
                                     IsExist = true;
                                 }
@@ -122,6 +123,7 @@ namespace KDU_TTMS
                         //@TODO select * then get password then decrypt password and confirm then check user role
                         if (IsExist)
                         {
+                            //Decrypt fetched password and check if equal
                             if (Cryptography.Decrypt(password).Equals(passwordTxt.Text))
                             {
                                 //MessageBox.Show("Login Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
