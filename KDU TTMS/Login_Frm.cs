@@ -105,7 +105,7 @@ namespace KDU_TTMS
                     con.Open();
                     try
                     {
-                        string loginQuery = "SELECT email,password,usertype from login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
+                        string loginQuery = "SELECT email,password,usertype FROM login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
                         using (SqlCommand cmd = new SqlCommand(loginQuery, con))
                         {
                             using (SqlDataReader dr = cmd.ExecuteReader())
