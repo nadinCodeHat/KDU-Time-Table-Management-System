@@ -8,7 +8,7 @@ namespace KDU_TTMS
 {
     public class Cryptography
     {
-
+        //@TODO use a strong encrpytion algorithm like AES
         public static string Encrypt(string plainText)
         {
             return plainText;
