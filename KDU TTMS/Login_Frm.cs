@@ -105,24 +105,34 @@ namespace KDU_TTMS
                     con.Open();
                     try
                     {
-                        string loginQuery = "SELECT email,password,usertype FROM login_info WHERE email = '" + emailTxt.Text.ToString() + "' AND password = '" + passwordTxt.Text.ToString() + "'";
-                        using (SqlCommand cmd = new SqlCommand(loginQuery, con))
+                        bool IsExist = false;
+                        string password = "";
+                        string countQuery = "SELECT * FROM Login_Info where email ='"+ emailTxt.Text.ToString() + "'";
+                        using (SqlCommand cmd = new SqlCommand(countQuery, con))
                         {
-                            using (SqlDataReader dr = cmd.ExecuteReader())
+                            using (SqlDataReader sdr = cmd.ExecuteReader())
                             {
-                                while (dr.Read())
+                                if (sdr.Read())
                                 {
-                                    //@TODO take count(*), if email exists then decrypt password and confirm then check user role
-                                    if (dr.HasRows)
-                                    {
-                                        if (dr.GetString(2) == "Student")
-                                        {
-                                            MessageBox.Show("Hello");
-                                        }
-                                    }
+                                    password = sdr.GetString(2);
+                                    IsExist = true;
                                 }
-                            } 
-                        }                           
+                            }
+                        }
+                        //@TODO select * then get password then decrypt password and confirm then check user role
+                        if (IsExist)
+                        {
+                            if (Cryptography.Decrypt(password).Equals(passwordTxt.Text))
+                            {
+                                //MessageBox.Show("Login Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                //Form1 frm1 = new Form1();
+                                // frm1.ShowDialog();
+                            }
+                        }
+                        else
+                        {
+                            msgTxt.Text = "Please enter the valid credentials";
+                        }                      
                     }
                     catch(Exception ex)
                     {
