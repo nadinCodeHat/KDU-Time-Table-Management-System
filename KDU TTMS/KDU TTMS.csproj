@@ -88,6 +88,7 @@
     <Compile Include="Administrator_Frm.Designer.cs">
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cryptography.cs" />
     <Compile Include="Login_Frm.cs">
       <SubType>Form</SubType>
     </Compile>
