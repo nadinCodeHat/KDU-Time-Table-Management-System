@@ -111,12 +111,13 @@ namespace KDU_TTMS
             this.intakeCombo.HoverState.Parent = this.intakeCombo;
             this.intakeCombo.ItemHeight = 30;
             this.intakeCombo.Items.AddRange(new object[] {
-            "36"});
+            "Select Lecture Module(s)"});
             this.intakeCombo.ItemsAppearance.Parent = this.intakeCombo;
             this.intakeCombo.Location = new System.Drawing.Point(31, 514);
             this.intakeCombo.Name = "intakeCombo";
             this.intakeCombo.ShadowDecoration.Parent = this.intakeCombo;
             this.intakeCombo.Size = new System.Drawing.Size(318, 36);
+            this.intakeCombo.StartIndex = 0;
             this.intakeCombo.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.intakeCombo.TabIndex = 43;
             // 
@@ -147,12 +148,11 @@ namespace KDU_TTMS
             this.degProgCombo.HoverState.Parent = this.degProgCombo;
             this.degProgCombo.ItemHeight = 30;
             this.degProgCombo.Items.AddRange(new object[] {
-            "Select Deg. Programme",
-            "Computer Science",
-            "Software Engineering",
-            "Computer Engineering",
-            "Information Technology",
-            "Information Systems"});
+            "Select Department",
+            "Department Of Computer Science",
+            "Department Of Computer Engineering",
+            "Department Of Computational Mathematics",
+            "Department Of Information Technology"});
             this.degProgCombo.ItemsAppearance.Parent = this.degProgCombo;
             this.degProgCombo.Location = new System.Drawing.Point(31, 431);
             this.degProgCombo.Name = "degProgCombo";
