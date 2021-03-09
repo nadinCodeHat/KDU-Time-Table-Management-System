@@ -112,6 +112,7 @@ namespace KDU_TTMS
                             {
                                 while (dr.Read())
                                 {
+                                    //@TODO take count(*), if email exists then decrypt password and confirm then check user role
                                     if (dr.HasRows)
                                     {
                                         if (dr.GetString(2) == "Student")
