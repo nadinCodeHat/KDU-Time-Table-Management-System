@@ -106,7 +106,7 @@ namespace KDU_TTMS
                     try
                     {
                         bool IsExist = false;
-                        string password = "";
+                        byte[] password = new byte[64];
                         string countQuery = "SELECT * FROM Login_Info where email ='"+ emailTxt.Text.ToString() + "'";
                         using (SqlCommand cmd = new SqlCommand(countQuery, con))
                         {
@@ -115,7 +115,7 @@ namespace KDU_TTMS
                                 if (sdr.Read())
                                 {
                                     //Fetch password
-                                    password = sdr.GetString(2);
+                                    password = (byte[])sdr[2];
                                     IsExist = true;
                                 }
                             }
@@ -124,7 +124,7 @@ namespace KDU_TTMS
                         if (IsExist)
                         {
                             //Decrypt fetched password and check if equal
-                            if (Cryptography.Decrypt(password).Equals(passwordTxt.Text))
+                            if (Cryptography.callDecrypt(password).Equals(passwordTxt.Text))
                             {
                                 //MessageBox.Show("Login Success", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 //Form1 frm1 = new Form1();
