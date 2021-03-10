@@ -104,8 +104,8 @@ namespace KDU_TTMS
                         {
                             intakeID = Convert.ToInt32(cmd.ExecuteScalar());
                         }
-
-                        string insertQuery = "INSERT INTO Student_info(reg_no,name,email,mobile,degree_programme_id,d_or_c,intake_id) values (@reg_no,@name,@email,@mobile,@degree_programme_id,@d_or_c,@intake_id)";
+                        //Insert student info
+                        string insertQuery = "INSERT INTO Student_info(reg_no,name,email,mobile,degree_programme_id,d_or_c,intake_id) VALUES (@reg_no,@name,@email,@mobile,@degree_programme_id,@d_or_c,@intake_id)";
                         using (SqlCommand cmd = new SqlCommand(insertQuery, con))
                         {
                             cmd.Parameters.AddWithValue("@reg_no", regNoTxt.Text.ToString());
@@ -126,6 +126,16 @@ namespace KDU_TTMS
                             cmd.Parameters.AddWithValue("@intake_id", intakeID);
                             cmd.ExecuteNonQuery();
                         }
+                        //Insert student login info
+                        string insertLoginQuery = "INSERT INTO Login_Info(email, password) VALUES (@email,@password)";
+                        using (SqlCommand cmd = new SqlCommand(insertLoginQuery, con))
+                        {
+                            //Generate a random 8 characters password and encrypt
+                            byte[] password = Cryptography.callEncrypt(Cryptography.generateRandom());
+                            cmd.Parameters.AddWithValue("@email", emailTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@password", password);
+                            cmd.ExecuteNonQuery();
+                        }
                     }
                 }
                 catch (SqlException ex)
@@ -135,7 +145,7 @@ namespace KDU_TTMS
                 }
                 finally
                 {
-                    createMessage("Inserted Suceesfully!", Color.Green);
+                    createMessage("Inserted Sucessfully!", Color.Green);
                 }
             }
         }
