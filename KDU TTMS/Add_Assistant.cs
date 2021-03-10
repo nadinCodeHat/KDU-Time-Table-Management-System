@@ -102,6 +102,17 @@ namespace KDU_TTMS
                             }
                             cmd.ExecuteNonQuery();
                         }
+                        //Insert assistant login info
+                        string insertLoginQuery = "INSERT INTO Login_Info(email, password) VALUES (@email,@password)";
+                        using (SqlCommand cmd = new SqlCommand(insertLoginQuery, con))
+                        {
+                            //Generate a random 8 characters password and encrypt
+                            //@Todo send email with login_info
+                            byte[] password = Cryptography.callEncrypt(Cryptography.generateRandom());
+                            cmd.Parameters.AddWithValue("@email", emailTxt.Text.ToString());
+                            cmd.Parameters.AddWithValue("@password", password);
+                            cmd.ExecuteNonQuery();
+                        }
                     }
                 }
                 catch (SqlException ex)
