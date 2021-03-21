@@ -29,11 +29,11 @@ namespace KDU_TTMS
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.loading_txt = new System.Windows.Forms.Label();
             this.cpy_yr_txt = new System.Windows.Forms.Label();
             this.kdu_logo = new System.Windows.Forms.PictureBox();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
+            this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.kdu_logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,7 +42,7 @@ namespace KDU_TTMS
             this.loading_txt.AutoSize = true;
             this.loading_txt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loading_txt.ForeColor = System.Drawing.Color.DimGray;
-            this.loading_txt.Location = new System.Drawing.Point(12, 231);
+            this.loading_txt.Location = new System.Drawing.Point(12, 229);
             this.loading_txt.Name = "loading_txt";
             this.loading_txt.Size = new System.Drawing.Size(59, 15);
             this.loading_txt.TabIndex = 0;
@@ -54,7 +54,7 @@ namespace KDU_TTMS
             this.cpy_yr_txt.AutoSize = true;
             this.cpy_yr_txt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cpy_yr_txt.ForeColor = System.Drawing.Color.DimGray;
-            this.cpy_yr_txt.Location = new System.Drawing.Point(352, 231);
+            this.cpy_yr_txt.Location = new System.Drawing.Point(352, 229);
             this.cpy_yr_txt.Name = "cpy_yr_txt";
             this.cpy_yr_txt.Size = new System.Drawing.Size(71, 15);
             this.cpy_yr_txt.TabIndex = 1;
@@ -70,9 +70,28 @@ namespace KDU_TTMS
             this.kdu_logo.TabIndex = 2;
             this.kdu_logo.TabStop = false;
             // 
-            // guna2DragControl1
+            // guna2ProgressBar1
             // 
-            this.guna2DragControl1.TargetControl = this;
+            this.guna2ProgressBar1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ProgressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2ProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Horizontal;
+            this.guna2ProgressBar1.Location = new System.Drawing.Point(0, 250);
+            this.guna2ProgressBar1.Name = "guna2ProgressBar1";
+            this.guna2ProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.guna2ProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.guna2ProgressBar1.ShadowDecoration.Parent = this.guna2ProgressBar1;
+            this.guna2ProgressBar1.Size = new System.Drawing.Size(435, 5);
+            this.guna2ProgressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.guna2ProgressBar1.TabIndex = 3;
+            this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            // 
+            // backgroundWorker
+            // 
+            this.backgroundWorker.WorkerReportsProgress = true;
+            this.backgroundWorker.WorkerSupportsCancellation = true;
+            this.backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker_DoWork);
+            this.backgroundWorker.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker_ProgressChanged);
+            this.backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker_RunWorkerCompleted);
             // 
             // Splash_Screen
             // 
@@ -80,6 +99,7 @@ namespace KDU_TTMS
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(435, 255);
+            this.Controls.Add(this.guna2ProgressBar1);
             this.Controls.Add(this.kdu_logo);
             this.Controls.Add(this.cpy_yr_txt);
             this.Controls.Add(this.loading_txt);
@@ -87,6 +107,7 @@ namespace KDU_TTMS
             this.Name = "Splash_Screen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Splash_Screen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.kdu_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -98,7 +119,8 @@ namespace KDU_TTMS
         private System.Windows.Forms.Label loading_txt;
         private System.Windows.Forms.Label cpy_yr_txt;
         private System.Windows.Forms.PictureBox kdu_logo;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2ProgressBar guna2ProgressBar1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker;
     }
 }
 
