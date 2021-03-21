@@ -16,16 +16,7 @@ namespace KDU_TTMS
 
         public Login_Frm()
         {
-            //Thread t = new Thread(new ThreadStart(StartForm));
-            //t.Start();
-            //Thread.Sleep(3000);
             InitializeComponent();
-            //t.Abort();
-        }
-
-        public void StartForm()
-        {
-            Application.Run(new Splash_Screen());
         }
 
         //@TODO
