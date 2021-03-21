@@ -13,60 +13,50 @@ namespace KDU_TTMS
 {
     public partial class Splash_Screen : Form
     {
+        Thread th;
         public Splash_Screen()
         {
             InitializeComponent();
         }
 
-        struct DataParameter
-        {
-            public int Process;
-            public int Delay;
-        }
-
-        private DataParameter _inputParameter;
-
         private void Splash_Screen_Load(object sender, EventArgs e)
         {
-            if (!backgroundWorker.IsBusy)
+            timer1.Start();
+        }
+
+        int step = 0;
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            switch (step)
             {
-                _inputParameter.Delay = 1;
-                _inputParameter.Process = 1200;
-                backgroundWorker.RunWorkerAsync(_inputParameter);
+                case 0:
+                    timer1.Interval = 2000;
+                    break;
+                case 1:
+                    loading_txt.Text = "Initializing Modules...100%";
+                    break;
+                case 2:
+                    loading_txt.Text = "Initializing UI...100%";
+                    break;
+                case 3:
+                    loading_txt.Text = "Initializing Packages...100%";
+                    break;
+                case 4:
+                    loading_txt.Text = "Loading...";
+                    break;
+                case 5:
+                    this.Close();
+                    th = new Thread(openLoginFrm);
+                    th.SetApartmentState(ApartmentState.STA);
+                    th.Start();
+                    break;
             }
+            step++;
         }
 
-        private void backgroundWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        private void openLoginFrm(object obj)
         {
-            guna2ProgressBar1.Value = e.ProgressPercentage;
-            guna2ProgressBar1.Update();
-        }
-
-        private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e)
-        {
-            int process = ((DataParameter)e.Argument).Process;
-            int delay = ((DataParameter)e.Argument).Delay;
-            int index = 1;
-            try
-            {
-                for(int i = 0; i < process; i++)
-                {
-                    if (!backgroundWorker.CancellationPending)
-                    {
-                        backgroundWorker.ReportProgress(index++ * 100 / process, string.Format("Process data {0}", i));
-                        Thread.Sleep(delay);
-                    }
-                }
-            }catch(Exception ex)
-            {
-                backgroundWorker.CancelAsync();
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void backgroundWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
-        {
-
-        }
+            Application.Run(new Login_Frm());
+        }    
     }
 }
