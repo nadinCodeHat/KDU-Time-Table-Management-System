@@ -184,9 +184,10 @@ namespace KDU_TTMS
             this.guna2CheckBox1.Animated = true;
             this.guna2CheckBox1.AutoSize = true;
             this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.guna2CheckBox1.CheckedState.BorderRadius = 6;
+            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
             this.guna2CheckBox1.CheckedState.BorderThickness = 0;
             this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
+            this.guna2CheckBox1.CheckMarkColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.guna2CheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2CheckBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CheckBox1.ForeColor = System.Drawing.Color.DarkGray;
@@ -196,7 +197,7 @@ namespace KDU_TTMS
             this.guna2CheckBox1.TabIndex = 15;
             this.guna2CheckBox1.Text = "Remember me";
             this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
-            this.guna2CheckBox1.UncheckedState.BorderRadius = 6;
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
             this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
             this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.guna2CheckBox1.UseVisualStyleBackColor = true;
