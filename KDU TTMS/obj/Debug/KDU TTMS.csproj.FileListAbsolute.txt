@@ -23,7 +23,6 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csproj.CoreC
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csproj.CopyComplete
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.exe
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.pdb
-C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csprojAssemblyReference.cache
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Student_Frm.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.About.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Administrator_Dashboard.resources
@@ -33,3 +32,4 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Manage_Lectu
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Student.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Assistant.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.Add_Lecturer.resources
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.NewLogin.resources

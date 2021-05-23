@@ -32,7 +32,6 @@ namespace KDU_TTMS
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_Frm));
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.loginBckgrndPic = new Guna.UI2.WinForms.Guna2PictureBox();
             this.loginBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label4 = new System.Windows.Forms.Label();
             this.passwordTxt = new Guna.UI2.WinForms.Guna2TextBox();
@@ -42,32 +41,21 @@ namespace KDU_TTMS
             this.msgTxt = new System.Windows.Forms.Label();
             this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.emailTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.loginBckgrndPic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.loginBckgrndPic = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBckgrndPic)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = this.loginBckgrndPic;
-            // 
-            // loginBckgrndPic
-            // 
-            this.loginBckgrndPic.Dock = System.Windows.Forms.DockStyle.Left;
-            this.loginBckgrndPic.Image = ((System.Drawing.Image)(resources.GetObject("loginBckgrndPic.Image")));
-            this.loginBckgrndPic.Location = new System.Drawing.Point(0, 0);
-            this.loginBckgrndPic.Name = "loginBckgrndPic";
-            this.loginBckgrndPic.ShadowDecoration.Parent = this.loginBckgrndPic;
-            this.loginBckgrndPic.Size = new System.Drawing.Size(385, 465);
-            this.loginBckgrndPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.loginBckgrndPic.TabIndex = 55;
-            this.loginBckgrndPic.TabStop = false;
             // 
             // loginBtn
             // 
@@ -77,7 +65,7 @@ namespace KDU_TTMS
             this.loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.loginBtn.CustomImages.Parent = this.loginBtn;
             this.loginBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(69)))), ((int)(((byte)(254)))));
-            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.loginBtn.ForeColor = System.Drawing.Color.White;
             this.loginBtn.HoverState.Parent = this.loginBtn;
             this.loginBtn.Location = new System.Drawing.Point(72, 352);
@@ -213,16 +201,6 @@ namespace KDU_TTMS
             this.label1.TabIndex = 5;
             this.label1.Text = "Welcome to";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(72, 48);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 50);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -299,6 +277,28 @@ namespace KDU_TTMS
             // 
             this.guna2DragControl2.TargetControl = this.panel1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::KDU_TTMS.Properties.Resources.kdu_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(72, 48);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(53, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // loginBckgrndPic
+            // 
+            this.loginBckgrndPic.Dock = System.Windows.Forms.DockStyle.Left;
+            this.loginBckgrndPic.Image = ((System.Drawing.Image)(resources.GetObject("loginBckgrndPic.Image")));
+            this.loginBckgrndPic.Location = new System.Drawing.Point(0, 0);
+            this.loginBckgrndPic.Name = "loginBckgrndPic";
+            this.loginBckgrndPic.ShadowDecoration.Parent = this.loginBckgrndPic;
+            this.loginBckgrndPic.Size = new System.Drawing.Size(385, 465);
+            this.loginBckgrndPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.loginBckgrndPic.TabIndex = 55;
+            this.loginBckgrndPic.TabStop = false;
+            // 
             // Login_Frm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -314,10 +314,10 @@ namespace KDU_TTMS
             this.Name = "Login_Frm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Login_Frm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.loginBckgrndPic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBckgrndPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -325,7 +325,6 @@ namespace KDU_TTMS
 
         #endregion
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private Guna.UI2.WinForms.Guna2PictureBox loginBckgrndPic;
         private Guna.UI2.WinForms.Guna2Button loginBtn;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2TextBox passwordTxt;
@@ -341,5 +340,6 @@ namespace KDU_TTMS
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2PictureBox loginBckgrndPic;
     }
 }
