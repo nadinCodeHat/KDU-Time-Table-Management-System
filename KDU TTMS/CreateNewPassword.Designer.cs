@@ -45,7 +45,7 @@ namespace KDU_TTMS
             this.msgTxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.msgTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msgTxt.ForeColor = System.Drawing.Color.Red;
-            this.msgTxt.Location = new System.Drawing.Point(43, 306);
+            this.msgTxt.Location = new System.Drawing.Point(44, 306);
             this.msgTxt.Name = "msgTxt";
             this.msgTxt.Size = new System.Drawing.Size(250, 22);
             this.msgTxt.TabIndex = 56;
@@ -62,19 +62,19 @@ namespace KDU_TTMS
             this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.loginBtn.ForeColor = System.Drawing.Color.White;
             this.loginBtn.HoverState.Parent = this.loginBtn;
-            this.loginBtn.Location = new System.Drawing.Point(43, 262);
+            this.loginBtn.Location = new System.Drawing.Point(44, 262);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.ShadowDecoration.Parent = this.loginBtn;
             this.loginBtn.Size = new System.Drawing.Size(250, 36);
             this.loginBtn.TabIndex = 55;
-            this.loginBtn.Text = "Get Code";
+            this.loginBtn.Text = "Reset Password";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.label2.Location = new System.Drawing.Point(38, 52);
+            this.label2.Location = new System.Drawing.Point(39, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(201, 25);
             this.label2.TabIndex = 54;
@@ -85,7 +85,7 @@ namespace KDU_TTMS
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.label1.Location = new System.Drawing.Point(40, 90);
+            this.label1.Location = new System.Drawing.Point(41, 90);
             this.label1.MaximumSize = new System.Drawing.Size(255, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(255, 30);
@@ -112,7 +112,7 @@ namespace KDU_TTMS
             this.passwordTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.passwordTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.passwordTxt.HoverState.Parent = this.passwordTxt;
-            this.passwordTxt.Location = new System.Drawing.Point(43, 155);
+            this.passwordTxt.Location = new System.Drawing.Point(44, 155);
             this.passwordTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.passwordTxt.Name = "passwordTxt";
             this.passwordTxt.PasswordChar = '●';
@@ -127,7 +127,7 @@ namespace KDU_TTMS
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.passwordLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.passwordLabel.Location = new System.Drawing.Point(40, 136);
+            this.passwordLabel.Location = new System.Drawing.Point(41, 136);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(57, 15);
             this.passwordLabel.TabIndex = 57;
@@ -153,7 +153,7 @@ namespace KDU_TTMS
             this.guna2TextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
-            this.guna2TextBox1.Location = new System.Drawing.Point(43, 214);
+            this.guna2TextBox1.Location = new System.Drawing.Point(44, 214);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '●';
@@ -168,7 +168,7 @@ namespace KDU_TTMS
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.label3.Location = new System.Drawing.Point(40, 195);
+            this.label3.Location = new System.Drawing.Point(41, 195);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 15);
             this.label3.TabIndex = 59;
@@ -179,7 +179,7 @@ namespace KDU_TTMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(333, 381);
+            this.ClientSize = new System.Drawing.Size(334, 381);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.passwordTxt);
@@ -189,6 +189,7 @@ namespace KDU_TTMS
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CreateNewPassword";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CreateNewPassword";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -43,7 +43,7 @@ namespace KDU_TTMS
             this.msgTxt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.msgTxt.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msgTxt.ForeColor = System.Drawing.Color.Red;
-            this.msgTxt.Location = new System.Drawing.Point(278, 315);
+            this.msgTxt.Location = new System.Drawing.Point(45, 276);
             this.msgTxt.Name = "msgTxt";
             this.msgTxt.Size = new System.Drawing.Size(250, 22);
             this.msgTxt.TabIndex = 56;
@@ -60,7 +60,7 @@ namespace KDU_TTMS
             this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.loginBtn.ForeColor = System.Drawing.Color.White;
             this.loginBtn.HoverState.Parent = this.loginBtn;
-            this.loginBtn.Location = new System.Drawing.Point(278, 267);
+            this.loginBtn.Location = new System.Drawing.Point(45, 232);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.ShadowDecoration.Parent = this.loginBtn;
             this.loginBtn.Size = new System.Drawing.Size(250, 36);
@@ -72,7 +72,7 @@ namespace KDU_TTMS
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.label2.Location = new System.Drawing.Point(273, 114);
+            this.label2.Location = new System.Drawing.Point(40, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(149, 25);
             this.label2.TabIndex = 54;
@@ -83,7 +83,7 @@ namespace KDU_TTMS
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.label1.Location = new System.Drawing.Point(275, 152);
+            this.label1.Location = new System.Drawing.Point(42, 120);
             this.label1.MaximumSize = new System.Drawing.Size(255, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(253, 30);
@@ -111,7 +111,7 @@ namespace KDU_TTMS
             this.emailTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.emailTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(114)))), ((int)(((byte)(147)))));
             this.emailTxt.HoverState.Parent = this.emailTxt;
-            this.emailTxt.Location = new System.Drawing.Point(278, 216);
+            this.emailTxt.Location = new System.Drawing.Point(45, 184);
             this.emailTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.emailTxt.Name = "emailTxt";
             this.emailTxt.PasswordChar = '\0';
@@ -126,7 +126,7 @@ namespace KDU_TTMS
             this.emailLabel.AutoSize = true;
             this.emailLabel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.emailLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(43)))), ((int)(((byte)(81)))));
-            this.emailLabel.Location = new System.Drawing.Point(275, 197);
+            this.emailLabel.Location = new System.Drawing.Point(42, 165);
             this.emailLabel.Name = "emailLabel";
             this.emailLabel.Size = new System.Drawing.Size(36, 15);
             this.emailLabel.TabIndex = 51;
@@ -137,7 +137,7 @@ namespace KDU_TTMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(334, 381);
             this.Controls.Add(this.msgTxt);
             this.Controls.Add(this.loginBtn);
             this.Controls.Add(this.label2);
@@ -145,6 +145,7 @@ namespace KDU_TTMS
             this.Controls.Add(this.emailTxt);
             this.Controls.Add(this.emailLabel);
             this.Name = "GetCode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GetCode";
             this.ResumeLayout(false);
             this.PerformLayout();
