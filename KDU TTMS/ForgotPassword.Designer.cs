@@ -29,19 +29,34 @@ namespace KDU_TTMS
         /// </summary>
         private void InitializeComponent()
         {
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(0, 0);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(334, 381);
+            this.panelContainer.TabIndex = 0;
             // 
             // ForgotPassword
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(468, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(334, 381);
+            this.Controls.Add(this.panelContainer);
             this.Name = "ForgotPassword";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ForgotPassword";
+            this.Load += new System.EventHandler(this.ForgotPassword_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panelContainer;
     }
 }

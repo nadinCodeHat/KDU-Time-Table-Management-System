@@ -36,3 +36,5 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.CreateNewPas
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.GetCode.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.ResetPassword.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.ForgotPassword.resources
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.csprojAssemblyReference.cache
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.NewDashboard.resources

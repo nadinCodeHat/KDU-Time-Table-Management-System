@@ -58,46 +58,46 @@ namespace KDU_TTMS
         //GetCode Button is Clicked
         private void getCodeBtn_Click(object sender, EventArgs e)
         {
-            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true)
-                createMsg("Please enter your email!");
-            else
-            {
-                using (SqlConnection con = new SqlConnection(connectionString))
-                {
-                    con.Open();
-                    try
-                    {
-                        bool IsExist = false;
-                        byte[] password = new byte[64];
-                        string countQuery = "SELECT * FROM Login_Info where email ='" + emailTxt.Text.ToString() + "'";
-                        using (SqlCommand cmd = new SqlCommand(countQuery, con))
-                        {
-                            using (SqlDataReader sdr = cmd.ExecuteReader())
-                            {
-                                if (sdr.Read())
-                                {
-                                    //Fetch password
-                                    password = (byte[])sdr[2];
-                                    IsExist = true;
-                                }
-                            }
-                        }
-                        //@TODO select * then get password then decrypt password and confirm then check user role
-                        if (IsExist)
-                        {
+            //if (isEmpty(emailTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true)
+            //    createMsg("Please enter your email!");
+            //else
+            //{
+            //    using (SqlConnection con = new SqlConnection(connectionString))
+            //    {
+            //        con.Open();
+            //        try
+            //        {
+            //            bool IsExist = false;
+            //            byte[] password = new byte[64];
+            //            string countQuery = "SELECT * FROM Login_Info where email ='" + emailTxt.Text.ToString() + "'";
+            //            using (SqlCommand cmd = new SqlCommand(countQuery, con))
+            //            {
+            //                using (SqlDataReader sdr = cmd.ExecuteReader())
+            //                {
+            //                    if (sdr.Read())
+            //                    {
+            //                        //Fetch password
+            //                        password = (byte[])sdr[2];
+            //                        IsExist = true;
+            //                    }
+            //                }
+            //            }
+            //            //@TODO select * then get password then decrypt password and confirm then check user role
+            //            if (IsExist)
+            //            {
                            
-                        }
-                        else
-                        {
-                            msgTxt.Text = "The email you entered does not exist in the records.";
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.ToString());
-                    }
-                }
-            }
+            //            }
+            //            else
+            //            {
+            //                msgTxt.Text = "The email you entered does not exist in the records.";
+            //            }
+            //        }
+            //        catch (Exception ex)
+            //        {
+            //            MessageBox.Show(ex.ToString());
+            //        }
+            //    }
+            //}
         }
     }
 }

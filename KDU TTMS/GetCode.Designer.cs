@@ -157,10 +157,10 @@ namespace KDU_TTMS
         #endregion
 
         private System.Windows.Forms.Label msgTxt;
-        private Guna.UI2.WinForms.Guna2Button getCodeBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox emailTxt;
         private System.Windows.Forms.Label emailLabel;
+        protected internal Guna.UI2.WinForms.Guna2Button getCodeBtn;
     }
 }

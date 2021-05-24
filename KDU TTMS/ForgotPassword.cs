@@ -16,5 +16,20 @@ namespace KDU_TTMS
         {
             InitializeComponent();
         }
+
+        private void ForgotPassword_Load(object sender, EventArgs e)
+        {
+            GetCode getCodeFrm = new GetCode()
+            {
+                Dock = DockStyle.Fill,
+                TopLevel = false,
+                TopMost = true
+            };
+            getCodeFrm.FormBorderStyle = FormBorderStyle.None;
+            this.panelContainer.Controls.Add(getCodeFrm);
+            getCodeFrm.Show();
+
+            //getCodeFrm.getCodeBtn
+        }
     }
 }
