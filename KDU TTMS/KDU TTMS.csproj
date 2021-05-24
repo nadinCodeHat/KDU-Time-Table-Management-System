@@ -93,11 +93,11 @@
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </Compile>
     <Compile Include="Cryptography.cs" />
-    <Compile Include="Login_Frm.cs">
+    <Compile Include="ForgotPassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login_Frm.Designer.cs">
-      <DependentUpon>Login_Frm.cs</DependentUpon>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Manage_Assignments.cs">
       <SubType>Form</SubType>
@@ -117,11 +117,11 @@
     <Compile Include="Manage_Students.Designer.cs">
       <DependentUpon>Manage_Students.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewLogin.cs">
+    <Compile Include="LoginFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewLogin.Designer.cs">
-      <DependentUpon>NewLogin.cs</DependentUpon>
+    <Compile Include="LoginFrm.Designer.cs">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -160,9 +160,6 @@
     <EmbeddedResource Include="Administrator_Frm.resx">
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login_Frm.resx">
-      <DependentUpon>Login_Frm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Manage_Assignments.resx">
       <DependentUpon>Manage_Assignments.cs</DependentUpon>
     </EmbeddedResource>
@@ -172,8 +169,8 @@
     <EmbeddedResource Include="Manage_Students.resx">
       <DependentUpon>Manage_Students.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewLogin.resx">
-      <DependentUpon>NewLogin.cs</DependentUpon>
+    <EmbeddedResource Include="LoginFrm.resx">
+      <DependentUpon>LoginFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash_Screen.resx">
       <DependentUpon>Splash_Screen.cs</DependentUpon>

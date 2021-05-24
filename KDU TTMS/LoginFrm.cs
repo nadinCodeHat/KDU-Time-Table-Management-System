@@ -1,48 +1,36 @@
 ﻿using Guna.UI2.WinForms;
-using KDU_TTMS.Properties;
 using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Threading;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KDU_TTMS
 {
-    public partial class Login_Frm : Form
+    public partial class LoginFrm : Form
     {
         //Connection String 
         string connectionString = ConfigurationManager.ConnectionStrings["con_string"].ConnectionString;
 
-        public Login_Frm()
+        public LoginFrm()
         {
             InitializeComponent();
+        }
+
+        private void NewLogin_MouseDown(object sender, MouseEventArgs e)
+        {
+            ActiveControl = null;
         }
 
         //@TODO
         //Create different user roles in the database
 
-        private void Login_Frm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        //Password hide/reveal
-        private bool isPassHidden = false;
-        private void passwordTxt_IconRightClick(object sender, EventArgs e)
-        {
-            if (isPassHidden == false)
-            {
-                passwordTxt.IconRight = Resources.toggle_off_30px;
-                isPassHidden = true;
-            }
-            else
-            {
-                passwordTxt.IconRight = Resources.toggle_on_30px;
-                isPassHidden = false;
-            }
-            passwordTxt.PasswordChar = isPassHidden ? '\0' : '●';
-        }
 
         //Check whether fields are empty
         private Boolean isEmpty(Guna2TextBox txt, Color colorB, Color colorFS)
@@ -64,7 +52,7 @@ namespace KDU_TTMS
         //When emailTxt changes
         private void emailTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(emailTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
+            isEmpty(emailTxt, Color.FromArgb(108, 114, 147), Color.FromArgb(81, 78, 221));
             if (msgTxt.Visible == true)
                 msgTxt.Visible = false;
         }
@@ -72,15 +60,9 @@ namespace KDU_TTMS
         //When passwordTxt changes
         private void passwordTxt_TextChanged(object sender, EventArgs e)
         {
-            isEmpty(passwordTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(55, 81, 228));
+            isEmpty(passwordTxt, Color.FromArgb(108, 114, 147), Color.FromArgb(81, 78, 221));
             if (msgTxt.Visible == true)
                 msgTxt.Visible = false;
-        }
-
-        //Lose control when clicked outside the fields
-        private void picture_bgrnd_MouseDown(object sender, MouseEventArgs e)
-        {
-            ActiveControl = null;
         }
 
         //Create message
@@ -93,11 +75,11 @@ namespace KDU_TTMS
         //Login Button is Clicked
         private void loginBtn_Click(object sender, EventArgs e)
         {
-            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true)
                 createMsg("Please enter your email!");
-            if (isEmpty(passwordTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
+            if (isEmpty(passwordTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true)
                 createMsg("Please enter your password!");
-            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true && isEmpty(passwordTxt, Color.Red, Color.FromArgb(86, 69, 254)) == true)
+            if (isEmpty(emailTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true && isEmpty(passwordTxt, Color.Red, Color.FromArgb(81, 78, 221)) == true)
                 createMsg("Please enter your email and password!");
             else
             {
@@ -108,7 +90,7 @@ namespace KDU_TTMS
                     {
                         bool IsExist = false;
                         byte[] password = new byte[64];
-                        string countQuery = "SELECT * FROM Login_Info where email ='"+ emailTxt.Text.ToString() + "'";
+                        string countQuery = "SELECT * FROM Login_Info where email ='" + emailTxt.Text.ToString() + "'";
                         using (SqlCommand cmd = new SqlCommand(countQuery, con))
                         {
                             using (SqlDataReader sdr = cmd.ExecuteReader())
@@ -134,15 +116,25 @@ namespace KDU_TTMS
                         }
                         else
                         {
-                            msgTxt.Text = "Please enter the valid credentials";
-                        }                      
+                            msgTxt.Text = "The email or password is incorrect.";
+                        }
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         MessageBox.Show(ex.ToString());
                     }
-                } 
+                }
             }
+        }
+
+        private void forgotPasswordLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void contactHereLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
