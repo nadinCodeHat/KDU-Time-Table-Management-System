@@ -35,3 +35,4 @@ C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU TTMS.pdb
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.CreateNewPassword.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.GetCode.resources
 C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.ResetPassword.resources
+C:\git\KDU-Time-Table-Management-System\KDU TTMS\obj\Debug\KDU_TTMS.ForgotPassword.resources

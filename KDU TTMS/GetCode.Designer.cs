@@ -30,7 +30,7 @@ namespace KDU_TTMS
         private void InitializeComponent()
         {
             this.msgTxt = new System.Windows.Forms.Label();
-            this.loginBtn = new Guna.UI2.WinForms.Guna2Button();
+            this.getCodeBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.emailTxt = new Guna.UI2.WinForms.Guna2TextBox();
@@ -49,23 +49,24 @@ namespace KDU_TTMS
             this.msgTxt.TabIndex = 56;
             this.msgTxt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // loginBtn
+            // getCodeBtn
             // 
-            this.loginBtn.BackColor = System.Drawing.Color.Transparent;
-            this.loginBtn.BorderRadius = 3;
-            this.loginBtn.CheckedState.Parent = this.loginBtn;
-            this.loginBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.loginBtn.CustomImages.Parent = this.loginBtn;
-            this.loginBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
-            this.loginBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.loginBtn.ForeColor = System.Drawing.Color.White;
-            this.loginBtn.HoverState.Parent = this.loginBtn;
-            this.loginBtn.Location = new System.Drawing.Point(45, 232);
-            this.loginBtn.Name = "loginBtn";
-            this.loginBtn.ShadowDecoration.Parent = this.loginBtn;
-            this.loginBtn.Size = new System.Drawing.Size(250, 36);
-            this.loginBtn.TabIndex = 55;
-            this.loginBtn.Text = "Get Code";
+            this.getCodeBtn.BackColor = System.Drawing.Color.Transparent;
+            this.getCodeBtn.BorderRadius = 3;
+            this.getCodeBtn.CheckedState.Parent = this.getCodeBtn;
+            this.getCodeBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.getCodeBtn.CustomImages.Parent = this.getCodeBtn;
+            this.getCodeBtn.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(78)))), ((int)(((byte)(221)))));
+            this.getCodeBtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.getCodeBtn.ForeColor = System.Drawing.Color.White;
+            this.getCodeBtn.HoverState.Parent = this.getCodeBtn;
+            this.getCodeBtn.Location = new System.Drawing.Point(45, 232);
+            this.getCodeBtn.Name = "getCodeBtn";
+            this.getCodeBtn.ShadowDecoration.Parent = this.getCodeBtn;
+            this.getCodeBtn.Size = new System.Drawing.Size(250, 36);
+            this.getCodeBtn.TabIndex = 55;
+            this.getCodeBtn.Text = "Get Code";
+            this.getCodeBtn.Click += new System.EventHandler(this.getCodeBtn_Click);
             // 
             // label2
             // 
@@ -120,6 +121,7 @@ namespace KDU_TTMS
             this.emailTxt.ShadowDecoration.Parent = this.emailTxt;
             this.emailTxt.Size = new System.Drawing.Size(250, 36);
             this.emailTxt.TabIndex = 52;
+            this.emailTxt.TextChanged += new System.EventHandler(this.emailTxt_TextChanged);
             // 
             // emailLabel
             // 
@@ -139,7 +141,7 @@ namespace KDU_TTMS
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(334, 381);
             this.Controls.Add(this.msgTxt);
-            this.Controls.Add(this.loginBtn);
+            this.Controls.Add(this.getCodeBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.emailTxt);
@@ -155,7 +157,7 @@ namespace KDU_TTMS
         #endregion
 
         private System.Windows.Forms.Label msgTxt;
-        private Guna.UI2.WinForms.Guna2Button loginBtn;
+        private Guna.UI2.WinForms.Guna2Button getCodeBtn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2TextBox emailTxt;

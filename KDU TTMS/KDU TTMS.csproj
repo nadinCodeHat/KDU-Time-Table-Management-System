@@ -196,6 +196,9 @@
     <EmbeddedResource Include="CreateNewPassword.resx">
       <DependentUpon>CreateNewPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GetCode.resx">
       <DependentUpon>GetCode.cs</DependentUpon>
     </EmbeddedResource>
