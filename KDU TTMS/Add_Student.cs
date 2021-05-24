@@ -1,14 +1,8 @@
 ﻿using Guna.UI2.WinForms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Configuration;
-using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KDU_TTMS
@@ -26,7 +20,7 @@ namespace KDU_TTMS
         private void Add_Student_Load(object sender, EventArgs e)
         {
         }
-        
+
         private void regNoTxt_TextChanged(object sender, EventArgs e)
         {
             isEmpty(regNoTxt, Color.FromArgb(125, 137, 149), Color.FromArgb(86, 69, 254));
@@ -70,7 +64,7 @@ namespace KDU_TTMS
             msgLabel.Text = msg;
             timer1.Start();
         }
-        
+
         //Add new Student
         private void addBtn_Click(object sender, EventArgs e)
         {
@@ -141,7 +135,7 @@ namespace KDU_TTMS
                 }
                 catch (SqlException ex)
                 {
-                    string msg = "Insert Error:";   
+                    string msg = "Insert Error:";
                     msg += ex.Message;
                 }
                 finally

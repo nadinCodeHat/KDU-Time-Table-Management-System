@@ -160,6 +160,9 @@
     <EmbeddedResource Include="Administrator_Frm.resx">
       <DependentUpon>Administrator_Frm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Manage_Assignments.resx">
       <DependentUpon>Manage_Assignments.cs</DependentUpon>
     </EmbeddedResource>

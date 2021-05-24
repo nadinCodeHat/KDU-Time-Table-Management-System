@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KDU_TTMS
@@ -30,7 +25,7 @@ namespace KDU_TTMS
             //student_info_table.Rows.Clear();
             //student_info_table.Refresh();
 
-           
+
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 SqlCommand cmd = conn.CreateCommand();
@@ -70,7 +65,7 @@ namespace KDU_TTMS
 
             deleteBtn.Name = "delete_btn";
             deleteBtn.HeaderText = "Delete";
-           // deleteBtn.Image = Resources.delete;
+            // deleteBtn.Image = Resources.delete;
             deleteBtn.ImageLayout = DataGridViewImageCellLayout.Zoom;
             //student_info_table.Columns.Insert(7, deleteBtn);
 
@@ -162,7 +157,7 @@ namespace KDU_TTMS
             {
                 //ToCsV(dataGridView1, @"c:\export.xls");
 
-               // ToCsV(student_info_table, sfd.FileName); // Here dataGridview1 is your grid view name
+                // ToCsV(student_info_table, sfd.FileName); // Here dataGridview1 is your grid view name
             }
         }
     }
