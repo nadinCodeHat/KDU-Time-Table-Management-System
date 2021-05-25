@@ -40,6 +40,7 @@ namespace KDU_TTMS
             this.forgotPasswordLink = new System.Windows.Forms.LinkLabel();
             this.contactHereLink = new System.Windows.Forms.LinkLabel();
             this.msgTxt = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -231,12 +232,23 @@ namespace KDU_TTMS
             this.msgTxt.TabIndex = 49;
             this.msgTxt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // NewLogin
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(265, 56);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 50;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // LoginFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(384, 461);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.msgTxt);
             this.Controls.Add(this.contactHereLink);
             this.Controls.Add(this.forgotPasswordLink);
@@ -251,7 +263,7 @@ namespace KDU_TTMS
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(400, 500);
             this.MinimumSize = new System.Drawing.Size(400, 500);
-            this.Name = "NewLogin";
+            this.Name = "LoginFrm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewLogin_MouseDown);
@@ -273,5 +285,6 @@ namespace KDU_TTMS
         private System.Windows.Forms.LinkLabel forgotPasswordLink;
         private System.Windows.Forms.LinkLabel contactHereLink;
         private System.Windows.Forms.Label msgTxt;
+        private System.Windows.Forms.Button button1;
     }
 }

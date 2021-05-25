@@ -130,5 +130,19 @@ namespace KDU_TTMS
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string pass = "123";
+            string user_id = "D/BCE/19/0002";
+            string email = "123@";
+            SqlConnection con = new SqlConnection(connectionString);
+            string sql = "INSERT INTO Login_Info (user_id, email, password) values (@user_id, @email, @password)";
+            SqlCommand cmd = new SqlCommand(sql, con);
+            cmd.Parameters["@user_id"].Value = user_id; //check this
+            cmd.Parameters["@email"].Value = email;
+            cmd.Parameters["@password"].Value = Cryptography.callEncrypt(pass);
+            cmd.ExecuteNonQuery();
+        }
     }
 }

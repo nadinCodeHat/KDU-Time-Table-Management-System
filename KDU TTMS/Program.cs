@@ -13,7 +13,7 @@ namespace KDU_TTMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NewDashboard());
+            Application.Run(new LoginFrm());
         }
     }
 }
