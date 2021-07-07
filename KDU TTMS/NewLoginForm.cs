@@ -32,11 +32,11 @@ namespace KDU_TTMS
             {
                 return 1;
             }
-            if (string.IsNullOrEmpty(emailTxt.Text))
+            else if (string.IsNullOrEmpty(emailTxt.Text))
             {
                 return 2;
             }
-            if(string.IsNullOrEmpty(passwrdTxt.Text))
+            else if(string.IsNullOrEmpty(passwrdTxt.Text))
             {
                 return 3;
             }        
@@ -45,35 +45,34 @@ namespace KDU_TTMS
                 return 0;
             }
         }
-        
-        private Label errorMsg = new Label();
-        private void createErroMsg(string showMsg)
+
+        private void createErroMsgEmail(string showMsg, int x, int y)
         {
+
             errorMsg.Text = showMsg;
             errorMsg.ForeColor = Color.Red;
             errorMsg.AutoSize = true;
-            errorMsg.TextAlign = ContentAlignment.MiddleCenter;
-            int y = (this.Height / 2) - (errorMsg.Height / 2);
-            int x = (this.Width / 2) - (errorMsg.Width / 2);
-            errorMsg.Location = new Point(x, 337);
-            
-            //errorMsg.Dock = DockStyle.Fill;
+            errorMsg.Location = new Point(x, y);
             this.Controls.Add(errorMsg);
         }
+        private void 
+        
+        private string errorMsgEmail = "The email field is required.";
+        private string errorMsgPassword = "The password field is required.";
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
             int returnVal = isEmpty(emailTxt, passwrdTxt);
             if (returnVal == 1)
-                createErroMsg("Please enter your Email / Password.");
-            if (returnVal == 2)
-                createErroMsg("Email field is empty!");
-            if(returnVal == 3)
-                createErroMsg("Password field is empty!");
-
+                createErroMsg(errorMsgEmail);
+                createErroMsg(errorMsgPassword);
+            if(returnVal == 2)
+                createErroMsg(errorMsgEmail);
+            if (returnVal == 3)
+                createErroMsg(errorMsgPassword);
             else
             {
-
+                //this.Controls.Remove(errorMsg);
             }
         }
     }
