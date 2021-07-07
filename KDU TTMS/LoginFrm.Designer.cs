@@ -266,6 +266,7 @@ namespace KDU_TTMS
             this.Name = "LoginFrm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = " ";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.NewLogin_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

@@ -71,101 +71,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="About.Designer.cs">
-      <DependentUpon>About.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Add_Assistant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add_Assistant.Designer.cs">
-      <DependentUpon>Add_Assistant.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Add_Lecturer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add_Lecturer.Designer.cs">
-      <DependentUpon>Add_Lecturer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Add_Student.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add_Student.Designer.cs">
-      <DependentUpon>Add_Student.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Administrator_Dashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Administrator_Dashboard.Designer.cs">
-      <DependentUpon>Administrator_Dashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Administrator_Frm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Administrator_Frm.Designer.cs">
-      <DependentUpon>Administrator_Frm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CreateNewPassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CreateNewPassword.Designer.cs">
-      <DependentUpon>CreateNewPassword.cs</DependentUpon>
-    </Compile>
     <Compile Include="Cryptography.cs" />
-    <Compile Include="ForgotPassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ForgotPassword.Designer.cs">
-      <DependentUpon>ForgotPassword.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GetCode.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GetCode.Designer.cs">
-      <DependentUpon>GetCode.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Manage_Assignments.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Manage_Assignments.Designer.cs">
-      <DependentUpon>Manage_Assignments.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Manage_Lecturers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Manage_Lecturers.Designer.cs">
-      <DependentUpon>Manage_Lecturers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Manage_Students.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Manage_Students.Designer.cs">
-      <DependentUpon>Manage_Students.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginFrm.Designer.cs">
       <DependentUpon>LoginFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewDashboard.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="NewDashboard.Designer.cs">
-      <DependentUpon>NewDashboard.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ResetPassword.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ResetPassword.Designer.cs">
-      <DependentUpon>ResetPassword.cs</DependentUpon>
     </Compile>
     <Compile Include="Splash_Screen.cs">
       <SubType>Form</SubType>
@@ -175,56 +91,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student_Frm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Student_Frm.Designer.cs">
-      <DependentUpon>Student_Frm.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="About.resx">
-      <DependentUpon>About.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add_Assistant.resx">
-      <DependentUpon>Add_Assistant.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add_Lecturer.resx">
-      <DependentUpon>Add_Lecturer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Add_Student.resx">
-      <DependentUpon>Add_Student.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Administrator_Dashboard.resx">
-      <DependentUpon>Administrator_Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Administrator_Frm.resx">
-      <DependentUpon>Administrator_Frm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CreateNewPassword.resx">
-      <DependentUpon>CreateNewPassword.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ForgotPassword.resx">
-      <DependentUpon>ForgotPassword.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GetCode.resx">
-      <DependentUpon>GetCode.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Manage_Assignments.resx">
-      <DependentUpon>Manage_Assignments.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Manage_Lecturers.resx">
-      <DependentUpon>Manage_Lecturers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Manage_Students.resx">
-      <DependentUpon>Manage_Students.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LoginFrm.resx">
       <DependentUpon>LoginFrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="NewDashboard.resx">
-      <DependentUpon>NewDashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ResetPassword.resx">
-      <DependentUpon>ResetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash_Screen.resx">
       <DependentUpon>Splash_Screen.cs</DependentUpon>
@@ -233,9 +101,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Student_Frm.resx">
-      <DependentUpon>Student_Frm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
